@@ -59,11 +59,11 @@ public class Main {
         } else if (!BuildVars.pathToCertificatePublicKey.isEmpty()) {
             // Filled a path to a pem file ? looks like you're going for the self signed option then, invoke with store and pem file to supply.
             telegramBotsApi = createSelfSignedTelegramBotsApi();
-            telegramBotsApi.registerBot(new WebHookExampleHandlers());
+           // telegramBotsApi.registerBot(new WebHookExampleHandlers());
         } else {
             // Non self signed, make sure you've added private/public and if needed intermediate to your cert-store.
             telegramBotsApi = createNoSelfSignedTelegramBotsApi();
-            telegramBotsApi.registerBot(new WebHookExampleHandlers());
+          //  telegramBotsApi.registerBot(new WebHookExampleHandlers());
         }
         return telegramBotsApi;
     }
