@@ -39,6 +39,7 @@ public class BotMessageText {
 
     public final static String ACC_INPUT_ERROR_MASSGE_1_1 = "Невірний формат.\n \n (Номер Особового рахунку складається з 9-ти цифр, перша з яких двійка: 2ХХХХХХХХ, або четвірка: 4ХХХХХХХХ).\n" +
             "\n" + "Якщо Ви хочете почати спочатку, то натисніть  /Старт або /Допомога для отримання допомоги.";
+    public final static String TYPE_INPUT_ERROR_MASSGE_2_1 = "Не вірний формат лічильника \n";
     public final static String TYPE_INPUT_ERROR_MASSGE_3_1 = "Невірний формат. Введіть покази відповідно лічильника, який Ви обрали: ";
     public final static String TYPE_INPUT_ERROR_MASSGE_3_2_1 = "Звичайний (Всі цифри. Максимум сім цифр) або змініть тип лічильника \n \n Якщо ви хочете почати спочатку то натисніть кнопку /Старт або натисніть кнопку /Допомога для отримання допомоги.";
     public final static String TYPE_INPUT_ERROR_MASSGE_3_2_2 = "Двозонний - НІЧ пробіл ДЕНЬ (Всі цифри. Максимум сім цифр) або змініть тип лічильника \n \n Якщо ви хочете почати спочатку то натисніть кнопку /Старт або натисніть кнопку /Допомога для отримання допомоги.";
@@ -47,4 +48,6 @@ public class BotMessageText {
     public static final String NAME_ZONE_1 = "Звичайний";
     public static final String NAME_ZONE_2 = "Двозонний";
     public static final String NAME_ZONE_3 = "Тризонний";
+
+    public static final String CHAT_START = "Зачекайте будь-ласка, вільний оператор зараз з'єднається з Вами";
 }
