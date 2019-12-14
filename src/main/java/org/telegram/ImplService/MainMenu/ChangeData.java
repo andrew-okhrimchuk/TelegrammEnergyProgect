@@ -33,7 +33,7 @@ public class ChangeData extends BaseEntity implements Menu {
         listCommand.add(CANSEL);
         listCommand.add(HELP);
         optionalSession.get().setAttribute("SubMenuAttribute", INSERT_YOUR_INDICATOR);
-        optionalSession.get().setAttribute("YOUR_ZONE", null);
+       // optionalSession.get().setAttribute("YOUR_ZONE", null);
         optionalSession.get().setAttribute("YOUR_Indicate", null);
         String titylText = START_TEXT_LEVEL_1_1 + yourAccount +"\n"+ START_TEXT_LEVEL_2_1 + yourZoneAttribute;
 

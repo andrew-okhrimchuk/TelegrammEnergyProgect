@@ -34,15 +34,15 @@ public class Insert_Your_Indicator extends BaseEntity implements Menu {
         listCommand.add(CANSEL);
         listCommand.add(HELP);
 
+        //сообщалка об ошибке
         if (!isVerifyYourIndicate(text, yourZoneAttribute)){
+            sendMessage.setText(errorMassge);
             setButtons(listCommand);
-            sendMessage.setText(TYPE_INPUT_ERROR_MASSGE_3_1 + TYPE_INPUT_ERROR_MASSGE_3_2_1);
             return sendMessage;
         }
 
         optionalSession.get().setAttribute("SubMenuAttribute", SEND_YOUR_INFO);
         optionalSession.get().setAttribute("YOUR_Indicate", text);
-        yourIndicate = text;
         listCommand.add(SEND);
         listCommand.add(CHANGE_DATA);
         setButtons(listCommand);
@@ -53,18 +53,53 @@ public class Insert_Your_Indicator extends BaseEntity implements Menu {
 
     private boolean isVerifyYourIndicate(String text, String yourZoneAttribute){
         BotLogger.info(LOGTAG, "Start method verifyIndicate in Insert_Your_Indicator. Your Zone = " + yourZoneAttribute + ", text = " + text);
+        StringBuilder info = new StringBuilder();
+        info.append(TYPE_INPUT_ERROR_MASSGE_3_1);
 
         if (yourZoneAttribute.equals(ZONE_1)) {
+            info.append(TYPE_INPUT_ERROR_MASSGE_3_2_1);
+            errorMassge = info.toString();
+            yourIndicate = text;
             return Pattern.matches("\\d{1,7}",text);
         }
+
         if (yourZoneAttribute.equals(ZONE_2)) {
-            return Pattern.matches("\\d{1,7}\\s{1}\\d{1,7}",text);
+            info.append(TYPE_INPUT_ERROR_MASSGE_3_2_2);
+            errorMassge = info.toString();
+            if (Pattern.matches("\\d{1,7}\\s{1}\\d{1,7}",text)) {
+                info = new StringBuilder();
+                String[] words = text.split("\\s");
+                info.append(NIGHT);
+                info.append(words[0]);
+                info.append(", ");
+                info.append(DAY);
+                info.append(words[1]);
+                info.append(".");
+                this.yourIndicate = info.toString();
+                return true;
+            }
+            return false;
         }
         if (yourZoneAttribute.equals(ZONE_3)) {
-            return Pattern.matches("\\d{1,7}\\s{1}\\d{1,7}\\s{1}\\d{1,7}",text);
+            info.append(TYPE_INPUT_ERROR_MASSGE_3_2_3);
+            errorMassge = info.toString();
+            if (Pattern.matches("\\d{1,7}\\s{1}\\d{1,7}\\s{1}\\d{1,7}",text)) {
+                info = new StringBuilder();
+                String[] words = text.split("\\s");
+                info.append(PEAK);
+                info.append(words[0]);
+                info.append(", ");
+                info.append(SEMI_PEAK);
+                info.append(words[1]);
+                info.append(", ");
+                info.append(NIGHT);
+                info.append(words[2]);
+                info.append(".");
+                this.yourIndicate = info.toString();
+                return true;
+            }
+            return false;
         }
-
-       //сообщалка об ошибке
         BotLogger.info(LOGTAG, "End method verifyIndicate in Insert_Your_Indicator. Returt false");
         return false;
 

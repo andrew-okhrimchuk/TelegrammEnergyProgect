@@ -28,7 +28,7 @@ public class Insert_Your_Acc extends BaseEntity implements Menu {
     }
 
     public SendMessage getSendMessage() {
-        BotLogger.info(LOGTAG, "Start method getSendMessage in Insert_Your_Acc. ID User = " + id );
+        BotLogger.info(LOGTAG, "Start method getSendMessage in " +  LOGTAG + ". ID User = " + id );
 
         listCommand.add(CANSEL);
         listCommand.add(HELP);
@@ -41,7 +41,7 @@ public class Insert_Your_Acc extends BaseEntity implements Menu {
             optionalSession.get().setAttribute("YOUR_ZONE", null);
             optionalSession.get().setAttribute("YOUR_Indicate", null);
             setButtons(listCommand);
-            BotLogger.info(LOGTAG, "End method verifyAccount in Insert_Your_Acc. ID User = " + id );
+            BotLogger.info(LOGTAG, "End method getSendMessage in " +  LOGTAG + ". ID User = " + id );
             return sendMessage;
         }
 

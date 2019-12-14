@@ -49,5 +49,11 @@ public class BotMessageText {
     public static final String NAME_ZONE_2 = "Двозонний";
     public static final String NAME_ZONE_3 = "Тризонний";
 
+    public static final String PEAK  = "ПІК: ";
+    public static final String SEMI_PEAK  = "НАПІВПІК: ";
+    public static final String NIGHT = "НІЧ: ";
+    public static final String DAY = "ДЕНЬ: ";
+
     public static final String CHAT_START = "Зачекайте будь-ласка, вільний оператор зараз з'єднається з Вами";
+    public static final String CHAT_ANY_THING = "Олексію, мені нікуди відправляти повідомлення, дай ресурс!";
 }

@@ -2,6 +2,7 @@ package org.telegram.updateshandlers;
 
 import org.apache.shiro.session.Session;
 import org.telegram.ImplService.MainMenu.*;
+import org.telegram.ImplService.chatSubMenu.ChatSender;
 import org.telegram.ImplService.startSubMenu.*;
 import org.telegram.data.SubMenuAttribute;
 import org.telegram.service.*;
@@ -104,6 +105,15 @@ public class BotWithSessionHandlers_3 extends TelegramLongPollingSessionBot {
     }
 
     private boolean chatSubMenu(Update update, Optional<Session> optionalSession){
+        BotLogger.info(LOGTAG, "Start method chatSubMenu, with message = " + update.getMessage().getText() );
+        SubMenuAttribute subMenuAttribute = (SubMenuAttribute) optionalSession.get().getAttribute("SubMenuAttribute");
+
+        if (subMenuAttribute.equals(ISCHAT)) {
+            Menu menu = new ChatSender(update, optionalSession);
+            send_massege (menu);
+            return true;
+        }
+
         return false;
     }
 
@@ -119,6 +129,6 @@ public class BotWithSessionHandlers_3 extends TelegramLongPollingSessionBot {
             e.printStackTrace();
             BotLogger.error(LOGTAG, e);
         }
-        BotLogger.info(LOGTAG, "End method send_massege in class " + LOGTAG +". Text = " + sendMessage.getChatId() );
+        BotLogger.info(LOGTAG, "End method send_massege in class " + LOGTAG +". ID User = " + sendMessage.getChatId() );
     }
 }
