@@ -40,7 +40,7 @@ public class Insert_Your_Type extends BaseEntity implements Menu {
         }
         //сообщалка об ошибке
         else {
-            sendMessage.setText(START_TEXT_LEVEL_1_1 + yourAccount +NEWLINE+ TYPE_INPUT_ERROR_MASSGE_2_1 + START_TEXT_LEVEL_1_2);
+            sendMessage.setText(START_TEXT_LEVEL_1_1 + yourAccount + TYPE_INPUT_ERROR_MASSGE_2_1 + START_TEXT_LEVEL_1_2);
             listCommand.add(ZONE_1);
             listCommand.add(ZONE_2);
             listCommand.add(ZONE_3);

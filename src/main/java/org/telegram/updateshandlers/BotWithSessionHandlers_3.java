@@ -72,7 +72,13 @@ public class BotWithSessionHandlers_3 extends TelegramLongPollingSessionBot {
         };
         if (chatSubMenu(update, optionalSession)){
             return;
-        };
+        }
+        else {
+            Menu menu = new ErrorMassege(update, optionalSession);
+            send_massege (menu);
+            return;
+        }
+
     }
 
 
