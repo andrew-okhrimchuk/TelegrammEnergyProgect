@@ -103,7 +103,7 @@ public class BotWithSessionHandlers_3 extends TelegramLongPollingSessionBot {
         }
 
         if (subMenuAttribute.equals(SEND_YOUR_INFO)) {
-            Menu menu = new Insert_Your_Info(update, optionalSession);
+            Menu menu = new Send_Your_Info(update, optionalSession);
             send_massege (menu);
             return true;
         }

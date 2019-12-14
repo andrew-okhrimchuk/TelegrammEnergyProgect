@@ -24,7 +24,7 @@ public class Insert_Your_Type extends BaseEntity implements Menu {
     }
 
     public SendMessage getSendMessage() {
-        BotLogger.info(LOGTAG, "Start method getSendMessage in " +  LOGTAG+ ". ID User = " + id );
+        BotLogger.info(LOGTAG, "Start method getSendMessage in " +  LOGTAG + ". ID User = " + id );
         listCommand.add(CHANGE_MY_ACC);
         listCommand.add(CANSEL);
         listCommand.add(HELP);

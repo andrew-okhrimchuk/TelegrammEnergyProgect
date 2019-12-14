@@ -30,7 +30,13 @@ public class ChatSender extends BaseEntity implements Menu {
         listCommand.add(MAINMENU);
         setButtons(listCommand);
         sendMessage.setText(CHAT_ANY_THING);
+        sendSomeMassege();
         BotLogger.info(LOGTAG, "End method getSendMessage in " +  LOGTAG + ". ID User = " + id );
         return sendMessage;
+    }
+
+    private boolean sendSomeMassege(){
+
+        return false;
     }
 }
