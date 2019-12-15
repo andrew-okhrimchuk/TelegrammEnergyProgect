@@ -23,37 +23,25 @@ public class BotWithSessionHandlers extends TelegramLongPollingSessionBot {
 
     @Override
     public void onUpdateReceived(Update update, Optional<Session> optionalSession) {
-        /*new Thread(new Runnable() {
-            @Override
-            public void run() {
-                if (update.hasMessage()) {
-
-
-                    // code goes here.
+                    if (mainMenu(update, optionalSession)){
+                        return;
+                    }
+                    if (startSubMenu(update, optionalSession)){
+                        return;
+                    }
+                    if (chatSubMenu(update, optionalSession)){
+                        return;
+                    }
+                    else {
+                        Menu menu = new ErrorMassege(update, optionalSession);
+                        send_massege (menu);
+                        return ;
+                    }
                 }
-            }
-        }).start*/
-
-        if (mainMenu(update, optionalSession)){
-            return;
-        }
-        if (startSubMenu(update, optionalSession)){
-            return;
-        }
-        if (chatSubMenu(update, optionalSession)){
-            return;
-        }
-        else {
-            Menu menu = new ErrorMassege(update, optionalSession);
-            send_massege (menu);
-            return ;
-        }
-    }
 
     private boolean mainMenu(Update update, Optional<Session> optionalSession){
         String text = update.getMessage().getText();
         BotLogger.info(LOGTAG, "Start method mainMenu in " + LOGTAG +". ID User = " + optionalSession.get().getId() );
-
         if (text.equals(MAINMENU) || text.equals(FIRST_START)) {
             Menu menu = new MainMenu(update, optionalSession);
             send_massege (menu);
