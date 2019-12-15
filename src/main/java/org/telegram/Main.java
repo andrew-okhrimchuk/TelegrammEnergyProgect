@@ -35,7 +35,7 @@ public class Main {
             try {
                 // Register long polling bots. They work regardless type of TelegramBotsApi we are creating
               //  telegramBotsApi.registerBot(new ChannelHandlers());
-                telegramBotsApi.registerBot(new BotWithSessionHandlers_3());
+                telegramBotsApi.registerBot(new BotWithSessionHandlers());
                // telegramBotsApi.registerBot(new DirectionsHandlers());
               //  telegramBotsApi.registerBot(new RaeHandlers());
               //  telegramBotsApi.registerBot(new WeatherHandlers());

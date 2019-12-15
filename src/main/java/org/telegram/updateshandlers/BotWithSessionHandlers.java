@@ -17,7 +17,7 @@ import java.util.Optional;
 import static org.telegram.data.MenuButtons.*;
 import static org.telegram.data.SubMenuAttribute.*;
 
-public class BotWithSessionHandlers_3 extends TelegramLongPollingSessionBot {
+public class BotWithSessionHandlers extends TelegramLongPollingSessionBot {
     public static final String LOGTAG = "BotWithSessionHandlers";
 
 

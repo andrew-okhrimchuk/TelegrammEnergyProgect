@@ -1,7 +1,6 @@
-package org.telegram.config;
+package org.telegram.http_config;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 import org.telegram.telegrambots.meta.logging.BotLogger;
