@@ -23,64 +23,86 @@ public class BotWithSessionHandlers extends TelegramLongPollingSessionBot {
 
     @Override
     public void onUpdateReceived(Update update, Optional<Session> optionalSession) {
-        String text = update.getMessage().getText();
-        BotLogger.info(LOGTAG, "Start method onUpdateReceived in " + LOGTAG +". ID User = " + optionalSession.get().getId() );
+        /*new Thread(new Runnable() {
+            @Override
+            public void run() {
+                if (update.hasMessage()) {
 
-        if (text.equals(MAINMENU) || text.equals(FIRST_START)) {
-            Menu menu = new MainMenu(update, optionalSession);
-            send_massege (menu);
-            return;
-        }
-        if (text.equals(START)) {
-            Menu menu = new Start(update, optionalSession);
-            send_massege (menu);
-            return;
-        }
-        if (text.equals(HELP)) {
-            Menu menu = new Help(update, optionalSession);
-            send_massege (menu);
-            return;
-        }
-        if (text.equals(CHAT)) {
-            Menu menu = new Chat(update, optionalSession);
-            send_massege (menu);
-            return;
-        }
-        if (text.equals(CANSEL)) {
-            Menu menu = new Cansel(update, optionalSession);
-            send_massege (menu);
-            return;
-        }
-        if (text.equals(CHANGE_MY_ACC)) {
-            Menu menu = new ChangeMyAcc(update, optionalSession);
-            send_massege (menu);
-            return;
-        }
-        if (text.equals(CHANGE_ZONE)) {
-            Menu menu = new ChangeZone(update, optionalSession);
-            send_massege (menu);
-            return;
-        }
-        if (text.equals(CHANGE_DATA)) {
-            Menu menu = new ChangeData(update, optionalSession);
-            send_massege (menu);
-            return;
-        }
 
+                    // code goes here.
+                }
+            }
+        }).start*/
+
+        if (mainMenu(update, optionalSession)){
+            return;
+        }
         if (startSubMenu(update, optionalSession)){
             return;
-        };
+        }
         if (chatSubMenu(update, optionalSession)){
             return;
         }
         else {
             Menu menu = new ErrorMassege(update, optionalSession);
             send_massege (menu);
-            return;
+            return ;
         }
-
     }
 
+    private boolean mainMenu(Update update, Optional<Session> optionalSession){
+        String text = update.getMessage().getText();
+        BotLogger.info(LOGTAG, "Start method mainMenu in " + LOGTAG +". ID User = " + optionalSession.get().getId() );
+
+        if (text.equals(MAINMENU) || text.equals(FIRST_START)) {
+            Menu menu = new MainMenu(update, optionalSession);
+            send_massege (menu);
+            return true;
+        }
+        if (text.equals(START)) {
+            Menu menu = new Start(update, optionalSession);
+            send_massege (menu);
+            return true;
+        }
+        if (text.equals(HELP)) {
+            Menu menu = new Help(update, optionalSession);
+            send_massege (menu);
+            return true;
+        }
+        if (text.equals(CHAT)) {
+            Menu menu = new Chat(update, optionalSession);
+            send_massege (menu);
+            return true;
+        }
+        if (text.equals(CANSEL)) {
+            Menu menu = new Cansel(update, optionalSession);
+            send_massege (menu);
+            return true;
+        }
+        if (text.equals(CHANGE_MY_ACC)) {
+            Menu menu = new ChangeMyAcc(update, optionalSession);
+            send_massege (menu);
+            return true;
+        }
+        if (text.equals(CHANGE_ZONE)) {
+            Menu menu = new ChangeZone(update, optionalSession);
+            send_massege (menu);
+            return true;
+        }
+        if (text.equals(CHANGE_DATA)) {
+            Menu menu = new ChangeData(update, optionalSession);
+            send_massege (menu);
+            return true;
+        }
+        if (startSubMenu(update, optionalSession)){
+            return true;
+        };
+        if (chatSubMenu(update, optionalSession)){
+            return true;
+        }
+        BotLogger.info(LOGTAG, "Not successful performance method mainMenu in " + LOGTAG +": return false. ID User = " + optionalSession.get().getId() );
+        return false;
+    }
 
     private boolean startSubMenu(Update update, Optional<Session> optionalSession){
         BotLogger.info(LOGTAG, "Start method startSubMenu, with message = " + update.getMessage().getText() );
@@ -107,6 +129,7 @@ public class BotWithSessionHandlers extends TelegramLongPollingSessionBot {
             send_massege (menu);
             return true;
         }
+        BotLogger.info(LOGTAG, "Not successful performance method startSubMenu in " + LOGTAG +": return false. ID User = " + optionalSession.get().getId() );
         return false;
     }
 
@@ -119,7 +142,7 @@ public class BotWithSessionHandlers extends TelegramLongPollingSessionBot {
             send_massege (menu);
             return true;
         }
-
+        BotLogger.info(LOGTAG, "Not successful performance method chatSubMenu in " + LOGTAG +": return false. ID User = " + optionalSession.get().getId() );
         return false;
     }
 

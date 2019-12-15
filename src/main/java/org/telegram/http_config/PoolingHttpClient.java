@@ -72,9 +72,9 @@ public class PoolingHttpClient {
     }
 
     private HttpPost getHttpPost (){
-        AppGetUrl appGetUrl = new AppGetUrl();
-        HttpPost post = new HttpPost(appGetUrl.getUrl());
-        BotLogger.info(LOGTAG, "Grated mAppGetUrl =  " +  appGetUrl.getUrl());
+        AppReadUrl appReadUrl = new AppReadUrl();
+        HttpPost post = new HttpPost(appReadUrl.getUrl());
+        BotLogger.info(LOGTAG, "Grated mAppGetUrl =  " +  appReadUrl.getUrl());
         return post;
     }
 }

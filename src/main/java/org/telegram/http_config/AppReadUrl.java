@@ -12,18 +12,18 @@ import java.util.Properties;
 @ToString
 @Getter
 @Setter
-public class AppGetUrl {
+public class AppReadUrl {
     public static final String LOGTAG = "App";
-    private static AppGetUrl instance;
+    private static AppReadUrl instance;
     private String url ;
 
-    public AppGetUrl() {
+    public AppReadUrl() {
         this.url = getUrls();
     }
 
-    public static synchronized AppGetUrl getInstance(){
+    public static synchronized AppReadUrl getInstance(){
         if(instance == null){
-            instance = new AppGetUrl();
+            instance = new AppReadUrl();
         }
         return instance;
     }
@@ -32,7 +32,7 @@ public class AppGetUrl {
     {
         BotLogger.info(LOGTAG, "Start method getUrl in " +  LOGTAG  );
         Properties prop = null;
-        try (InputStream input = AppGetUrl.class.getClassLoader().getResourceAsStream("config.properties")) {
+        try (InputStream input = AppReadUrl.class.getClassLoader().getResourceAsStream("config.properties")) {
              prop = new Properties();
 
             if (input == null) {
