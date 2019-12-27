@@ -3,7 +3,7 @@ package org.telegram.ImplService.MainMenu;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.apache.shiro.session.Session;
-import org.telegram.ImplService.BaseEntity;
+import org.telegram.ImplService.BaseEntityOfCommands;
 import org.telegram.service.Menu;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -16,7 +16,7 @@ import static org.telegram.data.SubMenuAttribute.ISCHAT;
 
 @ToString
 @NoArgsConstructor
-public class Chat extends BaseEntity implements Menu {
+public class Chat extends BaseEntityOfCommands implements Menu {
     public static final String LOGTAG = "Chat";
 
     public Chat(Update update, Optional<Session> optionalSessio){

@@ -18,7 +18,7 @@ import java.util.Optional;
 @Getter
 @Setter
 @NoArgsConstructor
-public class BaseEntity  {
+public class BaseEntityOfCommands {
     protected List<String> listCommand;
     protected SubMenuAttribute subMenuAttribute;
     protected SendMessage sendMessage;
@@ -32,7 +32,7 @@ public class BaseEntity  {
     protected Update update;
 
 
-    public BaseEntity (Update update, Optional<Session> optionalSession) {
+    public BaseEntityOfCommands(Update update, Optional<Session> optionalSession) {
         this.optionalSession = optionalSession;
         this.update = update;
         this.id = optionalSession.get().getId().toString();

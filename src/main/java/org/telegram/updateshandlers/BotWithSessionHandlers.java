@@ -10,7 +10,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.meta.logging.BotLogger;
-import session.TelegramLongPollingSessionBot;
+import org.telegram.session.TelegramLongPollingSessionBot;
 
 import java.util.Optional;
 

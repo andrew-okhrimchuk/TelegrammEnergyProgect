@@ -1,4 +1,4 @@
-package session;
+package org.telegram.session;
 
 import org.apache.shiro.session.mgt.SessionKey;
 import org.apache.shiro.session.mgt.eis.SessionIdGenerator;

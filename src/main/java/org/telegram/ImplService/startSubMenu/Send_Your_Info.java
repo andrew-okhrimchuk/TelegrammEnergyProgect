@@ -8,7 +8,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.shiro.session.Session;
-import org.telegram.ImplService.BaseEntity;
+import org.telegram.ImplService.BaseEntityOfCommands;
 import org.telegram.http_config.MultiHttpClientConnThread;
 import org.telegram.http_config.PoolingHttpClient;
 import org.telegram.http_config.PostHttpClient;
@@ -27,7 +27,7 @@ import static org.telegram.data.MenuButtons.*;
 
 @ToString
 @NoArgsConstructor
-public class Send_Your_Info extends BaseEntity implements Menu {
+public class Send_Your_Info extends BaseEntityOfCommands implements Menu {
     public static final String LOGTAG = "Send_Your_Info";
 
     public Send_Your_Info(Update update, Optional<Session> optionalSessio){

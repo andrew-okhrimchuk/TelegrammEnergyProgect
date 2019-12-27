@@ -2,7 +2,7 @@ package org.telegram.ImplService.MainMenu;
 
 import lombok.*;
 import org.apache.shiro.session.Session;
-import org.telegram.ImplService.BaseEntity;
+import org.telegram.ImplService.BaseEntityOfCommands;
 import org.telegram.service.Menu;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -17,7 +17,7 @@ import static org.telegram.data.SubMenuAttribute.ISEMPTY;
 
 @ToString
 @NoArgsConstructor
-public class MainMenu extends BaseEntity implements Menu {
+public class MainMenu extends BaseEntityOfCommands implements Menu {
     public static final String LOGTAG = "MainMenu";
 
     public MainMenu(Update update, Optional<Session> optionalSessio){

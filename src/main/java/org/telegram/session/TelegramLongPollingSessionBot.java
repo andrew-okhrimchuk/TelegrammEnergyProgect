@@ -1,4 +1,4 @@
-package session;
+package org.telegram.session;
 
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.UnknownSessionException;
@@ -7,7 +7,6 @@ import org.apache.shiro.session.mgt.SessionContext;
 import org.apache.shiro.session.mgt.eis.AbstractSessionDAO;
 import org.telegram.BotConfig;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
-import org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 

@@ -3,7 +3,7 @@ package org.telegram.ImplService.startSubMenu;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.apache.shiro.session.Session;
-import org.telegram.ImplService.BaseEntity;
+import org.telegram.ImplService.BaseEntityOfCommands;
 import org.telegram.service.Menu;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -20,7 +20,7 @@ import static org.telegram.data.SubMenuAttribute.SEND_YOUR_INFO;
 
 @ToString
 @NoArgsConstructor
-public class Insert_Your_Indicator extends BaseEntity implements Menu {
+public class Insert_Your_Indicator extends BaseEntityOfCommands implements Menu {
     public static final String LOGTAG = "Insert_Your_Indicator";
 
     public Insert_Your_Indicator(Update update, Optional<Session> optionalSessio){
