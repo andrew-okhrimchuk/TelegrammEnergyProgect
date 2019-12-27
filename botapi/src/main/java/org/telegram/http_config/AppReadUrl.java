@@ -13,7 +13,7 @@ import java.util.Properties;
 @Getter
 @Setter
 public class AppReadUrl {
-    public static final String LOGTAG = "App";
+    public static final String LOGTAG = "AppReadUrl";
     private static AppReadUrl instance;
     private String url ;
 
@@ -28,7 +28,7 @@ public class AppReadUrl {
         return instance;
     }
 
-    private String getUrls ()
+    private static String getUrls ()
     {
         BotLogger.info(LOGTAG, "Start method getUrl in " +  LOGTAG  );
         Properties prop = null;
@@ -36,8 +36,7 @@ public class AppReadUrl {
              prop = new Properties();
 
             if (input == null) {
-                System.out.println("Sorry, unable to find config.properties");
-                return null;
+                throw new IOException("Sorry, unable to find config.properties");
             }
 
             //load a properties file from class path, inside static method
