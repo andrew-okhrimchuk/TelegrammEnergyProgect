@@ -12,6 +12,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.jdbi:jdbi:2.78" level="project" />
+    <orderEntry type="library" name="Maven: com.bertoncelj.jdbi.entitymapper:jdbi-entity-mapper:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.telegram:telegrambots:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.telegram:telegrambots-meta:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.inject:guice:4.1.0" level="project" />
