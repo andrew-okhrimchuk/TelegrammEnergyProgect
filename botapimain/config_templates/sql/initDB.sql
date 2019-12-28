@@ -9,10 +9,7 @@ CREATE SEQUENCE user_seq START 100000;
 CREATE TABLE users (
   id        INTEGER PRIMARY KEY DEFAULT nextval('user_seq'),
   full_name TEXT NOT NULL,
-  email     TEXT NOT NULL UNIQUE,
-  flag      user_flag NOT NULL,
-  status    text DEFAULT ('inserted')
+  email     TEXT NOT NULL,
+  flag      user_flag NOT NULL
 );
-/*CREATE UNIQUE INDEX USERS_UNIQUE_EMAIL_IDX ON USERS (EMAIL);*/
-
 
