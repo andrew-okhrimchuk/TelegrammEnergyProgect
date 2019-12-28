@@ -1,0 +1,7 @@
+persist\DBIProvider.class
+persist\model\UserFlag.class
+persist\dao\AbstractDao.class
+persist\dao\UserDao.class
+persist\model\User.class
+persist\DBIProvider$DBIHolder.class
+persist\model\BaseEntity.class

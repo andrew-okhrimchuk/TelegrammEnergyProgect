@@ -1,0 +1,4 @@
+persist\dao\UserDaoTest.class
+persist\DBITestProvider.class
+persist\UserTestData.class
+persist\dao\AbstractDaoTest.class
