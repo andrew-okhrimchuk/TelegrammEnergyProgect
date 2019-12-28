@@ -17,9 +17,8 @@ public class PostHttpClient {
 
 
     private HttpPost getHttpPost (){
-        AppReadUrl appReadUrl = new AppReadUrl();
-        HttpPost post = new HttpPost(appReadUrl.getUrl());
-        BotLogger.info(LOGTAG, "Grated mAppGetUrl =  " +  appReadUrl.getUrl());
+        HttpPost post = new HttpPost(AppRead.URL);
+        BotLogger.info(LOGTAG, "Grated mAppGetUrl =  " +  AppRead.URL);
         return post;
     }
 

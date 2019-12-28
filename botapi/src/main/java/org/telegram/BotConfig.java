@@ -1,5 +1,7 @@
 package org.telegram;
 
+import org.telegram.http_config.AppRead;
+
 /**
  * @author Ruben Bermudez
  * @version 1.0
@@ -34,6 +36,6 @@ public class BotConfig {
     public static final String ELEKTROLLART_TOKEN = "914192515:AAGdDeFEfluWLbs_JOdVZebvqFyuM4ZN1YU";
     public static final String ELEKTROLLART_USER = "ElektrollArtFanBot";*/
 
-    public static final String BOTWITHSESSION_TOKEN = "965730643:AAEFvD8yIUfaCW1EbJtJsl6px3rHBYscMQw";
+    public static final String BOTWITHSESSION_TOKEN = AppRead.TOKEN;
     public static final String BOTWITHSESSION_USER = "BotWithSession";
 }

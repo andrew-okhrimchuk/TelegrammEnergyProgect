@@ -5,7 +5,6 @@ import lombok.ToString;
 import org.apache.http.HeaderElement;
 import org.apache.http.HeaderElementIterator;
 import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
 import org.apache.http.conn.ConnectionKeepAliveStrategy;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
@@ -71,10 +70,4 @@ public class PoolingHttpClient {
         };
     }
 
-    private HttpPost getHttpPost (){
-        AppReadUrl appReadUrl = new AppReadUrl();
-        HttpPost post = new HttpPost(appReadUrl.getUrl());
-        BotLogger.info(LOGTAG, "Grated mAppGetUrl =  " +  appReadUrl.getUrl());
-        return post;
-    }
 }
