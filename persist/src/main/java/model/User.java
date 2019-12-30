@@ -1,6 +1,5 @@
 package model;
 
-//import com.bertoncelj.jdbi.entitymapper.Column;
 import lombok.*;
 
 import java.util.Objects;
@@ -11,9 +10,7 @@ import java.util.Objects;
 @ToString(callSuper = true)
 public class User extends BaseEntity {
 
-    //@Column("id_telegram")
     private Integer id_telegram;
-    //@Column("acc")
     private Integer [] acc;
 
     public User(Integer id_telegram, Integer [] acc) {

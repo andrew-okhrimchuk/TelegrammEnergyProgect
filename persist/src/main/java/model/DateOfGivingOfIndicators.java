@@ -1,9 +1,7 @@
 package model;
 
-//import com.bertoncelj.jdbi.entitymapper.Column;
 import lombok.*;
 
-import javax.persistence.Column;
 import java.time.LocalDate;
 
 @NoArgsConstructor

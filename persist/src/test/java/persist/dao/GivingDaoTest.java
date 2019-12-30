@@ -8,6 +8,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import persist.GivingTestData;
 import java.time.LocalDate;
+import java.util.List;
+
 import static persist.GivingTestData.*;
 
 
@@ -54,9 +56,23 @@ public class GivingDaoTest extends AbstractDaoTest<DateOfGivingOfIndicatorsDao> 
 
     @Test
     public void getWithIdTelegram() {
-        DateOfGivingOfIndicators allCount = dao.getWithIdTelegram(dateOfGivingOfIndicators1.getId_telegram());
-        Assert.assertEquals(allCount, dateOfGivingOfIndicators1);
+        dao.insert(dateOfGivingOfIndicatorsMinusOneDay);
+        dao.insert(dateOfGivingOfIndicatorsMinusTwoDays);
+        List<DateOfGivingOfIndicators> allCount = dao.getWithIdTelegram(dateOfGivingOfIndicatorsMinusOneDay.getId_telegram());
+        Assert.assertEquals(TWO_DateOfGivingOfIndicatorsS, allCount);
+    }
 
-
+    @Test
+    public void getWithIdTelegramDouble() {
+        dao.insert(dateOfGivingOfIndicatorsMinusOneDay);
+        dao.insert(dateOfGivingOfIndicatorsMinusOneDay);
+        dao.insert(dateOfGivingOfIndicatorsMinusOneDay);
+        dao.insert(dateOfGivingOfIndicatorsMinusOneDay);
+        dao.insert(dateOfGivingOfIndicatorsMinusTwoDays);
+        dao.insert(dateOfGivingOfIndicatorsMinusTwoDays);
+        dao.insert(dateOfGivingOfIndicatorsMinusTwoDays);
+        dao.insert(dateOfGivingOfIndicatorsMinusTwoDays);
+        DateOfGivingOfIndicators dateOfGivingOfIndicatorsMinusOne = dao.getWithIdTelegram(dateOfGivingOfIndicatorsMinusOneDay.getId_telegram(), dateOfGivingOfIndicatorsMinusOneDay.getDate());
+        Assert.assertEquals(dateOfGivingOfIndicatorsMinusOneDay, dateOfGivingOfIndicatorsMinusOne);
     }
 }

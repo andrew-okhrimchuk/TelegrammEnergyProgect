@@ -1,11 +1,10 @@
 package dao;
 
-import com.github.rkmk.mapper.CustomMapperFactory;
 import model.DateOfGivingOfIndicators;
 import org.skife.jdbi.v2.sqlobject.*;
-import org.skife.jdbi.v2.sqlobject.customizers.RegisterMapperFactory;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public abstract class DateOfGivingOfIndicatorsDao implements AbstractDao {
 
@@ -26,8 +25,11 @@ public abstract class DateOfGivingOfIndicatorsDao implements AbstractDao {
     @SqlUpdate("INSERT INTO giving_of_indicator (id, id_telegram, date) VALUES (:id, :id_telegram, :date) ON CONFLICT ON CONSTRAINT id_telegram_date DO NOTHING ")
     abstract int insertGeneratedWithId(@BindBean DateOfGivingOfIndicators dateOfGivingOfIndicators);
 
+    @SqlQuery("SELECT * FROM giving_of_indicator WHERE id_telegram = :id_telegram AND date = :date")
+    public abstract DateOfGivingOfIndicators getWithIdTelegram(@Bind("id_telegram") int id_telegram, @Bind("date") LocalDate date);
+
     @SqlQuery("SELECT * FROM giving_of_indicator WHERE id_telegram = :id_telegram")
-    public abstract DateOfGivingOfIndicators getWithIdTelegram(@Bind("id_telegram") int id_telegram);
+    public abstract List<DateOfGivingOfIndicators> getWithIdTelegram(@Bind("id_telegram") int id_telegram);
 
     @SqlQuery("SELECT COUNT (*) FROM giving_of_indicator WHERE  date >= :start AND date <= :end")
     public abstract Integer getCountBetween(@Bind("start") LocalDate start, @Bind("end") LocalDate end);
