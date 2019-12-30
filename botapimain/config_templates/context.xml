@@ -35,7 +35,7 @@
 
     https://tomcat.apache.org/tomcat-8.0-doc/jdbc-pool.html
     -->
-    <Resource name="jdbc/masterjava"
+    <Resource name="jdbc/postgres"
               auth="Container"
               type="javax.sql.DataSource"
               maxWaitMillis="100000"
@@ -44,6 +44,6 @@
               driverClassName="org.postgresql.Driver"
               username="user"
               password="password"
-              url="jdbc:postgresql://localhost:5432/masterjava"/>
+              url="jdbc:postgresql://localhost:5432/postgres"/>
 
 </Context>

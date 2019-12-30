@@ -1,10 +1,12 @@
 package persist;
 
+import provider.DBIProvider;
+
 import java.sql.DriverManager;
 
 public class DBITestProvider {
     public static void initDBI() {
-        initDBI("jdbc:postgresql://localhost:5432/masterjava", "user", "password");
+        initDBI("jdbc:postgresql://localhost:5432/postgres", "user", "password");
     }
 
     public static void initDBI(String dbUrl, String dbUser, String dbPassword) {

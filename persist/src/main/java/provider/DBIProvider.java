@@ -1,10 +1,11 @@
-package persist;
+package provider;
 
+import com.github.rkmk.mapper.CustomMapperFactory;
 import org.skife.jdbi.v2.DBI;
 import org.skife.jdbi.v2.logging.SLF4JLog;
 import org.skife.jdbi.v2.tweak.ConnectionFactory;
 import org.slf4j.Logger;
-import persist.dao.AbstractDao;
+import dao.AbstractDao;
 
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
@@ -28,13 +29,18 @@ public class DBIProvider {
                 try {
                     log.info("Init jDBI with  JNDI");
                     InitialContext ctx = new InitialContext();
-                    dbi = new DBI((DataSource) ctx.lookup("java:/comp/env/jdbc/masterjava"));
+                    dbi = new DBI((DataSource) ctx.lookup("java:/comp/env/jdbc/postgres"));
                 } catch (Exception ex) {
                     throw new IllegalStateException("PostgreSQL initialization failed", ex);
                 }
             }
+
             jDBI = dbi;
             jDBI.setSQLLog(new SLF4JLog());
+            jDBI.registerArgumentFactory(new IntArrayArgument());
+            CustomMapperFactory mapper = new CustomMapperFactory();
+            mapper.register(new LocalDateMapperFactory());
+            jDBI.registerMapper(mapper);
         }
     }
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/botapi/botapi.iml" filepath="$PROJECT_DIR$/botapi/botapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/botapimain.iml" filepath="$PROJECT_DIR$/botapimain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/common-web/common-web.iml" filepath="$PROJECT_DIR$/web/common-web/common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persist/persist.iml" filepath="$PROJECT_DIR$/persist/persist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/servlets/servlets.iml" filepath="$PROJECT_DIR$/web/servlets/servlets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>

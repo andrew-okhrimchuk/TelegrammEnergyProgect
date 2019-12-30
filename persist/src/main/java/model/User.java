@@ -1,82 +1,28 @@
-package persist.model;
+package model;
 
-import com.bertoncelj.jdbi.entitymapper.Column;
+//import com.bertoncelj.jdbi.entitymapper.Column;
+import lombok.*;
 
 import java.util.Objects;
-
+@Setter
+@Getter
+@NoArgsConstructor
+@EqualsAndHashCode(callSuper = true)
+@ToString(callSuper = true)
 public class User extends BaseEntity {
-    @Column("full_name")
-    private String fullName;
 
-    private String email;
+    //@Column("id_telegram")
+    private Integer id_telegram;
+    //@Column("acc")
+    private Integer [] acc;
 
-    private UserFlag flag;
-
-    public User() {
+    public User(Integer id_telegram, Integer [] acc) {
+        this(null, id_telegram, acc);
     }
 
-    public User(String fullName, String email, UserFlag flag) {
-        this(null, fullName, email, flag);
-    }
-
-    public User(Integer id, String fullName, String email, UserFlag flag) {
+    public User(Integer id, Integer id_telegram, Integer [] acc) {
         super(id);
-        this.fullName = fullName;
-        this.email = email;
-        this.flag = flag;
-    }
-
-    public String getFullName() {
-        return fullName;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public UserFlag getFlag() {
-        return flag;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setFlag(UserFlag flag) {
-        this.flag = flag;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return Objects.equals(id, user.id) &&
-                Objects.equals(fullName, user.fullName) &&
-                Objects.equals(email, user.email) &&
-                flag == user.flag;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, fullName, email, flag);
-    }
-
-    @Override
-    public String toString() {
-        return "User (" +
-                "id=" + id +
-                ", fullName='" + fullName + '\'' +
-                ", email='" + email + '\'' +
-                ", flag=" + flag +
-                ')';
+        this.id_telegram = id_telegram;
+        this.acc = acc;
     }
 }

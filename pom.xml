@@ -13,5 +13,6 @@
         <module>parent</module>
         <module>botapi</module>
         <module>persist</module>
+        <module>web</module>
     </modules>
 </project>

@@ -1,4 +1,4 @@
-package persist.dao;
+package dao;
 
 public interface AbstractDao {
     void clean();

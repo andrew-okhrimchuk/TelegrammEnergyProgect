@@ -1,15 +1,12 @@
-package persist.dao;
+package dao;
 
-import com.bertoncelj.jdbi.entitymapper.EntityMapperFactory;
+//import com.bertoncelj.jdbi.entitymapper.EntityMapperFactory;
+import com.github.rkmk.mapper.CustomMapperFactory;
 import org.skife.jdbi.v2.sqlobject.*;
-import org.skife.jdbi.v2.sqlobject.customizers.BatchChunkSize;
 import org.skife.jdbi.v2.sqlobject.customizers.RegisterMapperFactory;
-import persist.model.User;
+import model.User;
 
-import java.util.Iterator;
-import java.util.List;
 
-@RegisterMapperFactory(EntityMapperFactory.class)
 public abstract class UserDao implements AbstractDao {
 
     public User insert(User user) {
@@ -22,27 +19,22 @@ public abstract class UserDao implements AbstractDao {
         return user;
     }
 
-    @SqlUpdate("INSERT INTO users (full_name, email, flag) VALUES (:fullName, :email, CAST(:flag AS user_flag)) ")
+    @SqlUpdate("INSERT INTO users (id_telegram, acc) VALUES (:id_telegram, :acc)")
     @GetGeneratedKeys
     abstract int insertGeneratedId(@BindBean User user);
 
-    @SqlUpdate("INSERT INTO users (id, full_name, email, flag) VALUES (:id, :fullName, :email, CAST(:flag AS user_flag)) ")
+    @SqlUpdate("INSERT INTO users (id, id_telegram, acc) VALUES (:id, :id_telegram, :acc)")
     abstract void insertWitId(@BindBean User user);
 
-    @SqlQuery("SELECT * FROM users ORDER BY full_name, email LIMIT :it")
-    public abstract List<User> getWithLimit(@Bind int limit);
+    @SqlQuery("SELECT * FROM users WHERE id_telegram = :id_telegram")
+    public abstract User getWithUser(@Bind ("id_telegram") int id_telegram);
+
+    @SqlQuery("SELECT * FROM users WHERE id_telegram = :id_telegram")
+    public abstract User getWithUser(@BindBean User user);
 
     //   http://stackoverflow.com/questions/13223820/postgresql-delete-all-content
     @SqlUpdate("TRUNCATE users")
     @Override
     public abstract void clean();
 
-    @SqlBatch("INSERT INTO users (id, full_name, email, flag, status) VALUES (:id, :fullName, :email, CAST(:flag AS user_flag), 'upserted')  ON CONFLICT ON CONSTRAINT users_email_key\n" +
-            "   DO UPDATE SET email=EXCLUDED.email RETURNING *")
- //   @GetGeneratedKeys(columnName = "id")
-    abstract int[] insertAllWitId(@BindBean Iterator<User> elements, @BatchChunkSize int size);
-
-    @SqlQuery("INSERT INTO users (id, full_name, email, flag, status) VALUES (:id, :fullName, :email, CAST(:flag AS user_flag), 'upserted')  ON CONFLICT ON CONSTRAINT users_email_key\n" +
-            "   DO UPDATE SET status = 'upserted' RETURNING id;")
-    abstract String insertWitId1(@BindBean User user);
 }
