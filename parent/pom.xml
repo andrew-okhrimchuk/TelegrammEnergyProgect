@@ -34,6 +34,7 @@
         <mysql.version>6.0.6</mysql.version>
         <commonsio.version>2.5</commonsio.version>
         <shiro.version>1.4.2</shiro.version>
+        <javax.servlet.version>3.1.0</javax.servlet.version>
 
     </properties>
 
@@ -129,6 +130,14 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--javax.servlet-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${javax.servlet.version}</version>
             <scope>provided</scope>
         </dependency>
 

@@ -1,7 +1,5 @@
-package servlets;
-
+/*
 import org.thymeleaf.context.WebContext;
-import ru.javaops.masterjava.persist.model.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
@@ -14,7 +12,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import static web.ThymeleafListener.engine;
+import static web.ThymeleafListener.engine;*/
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
 
 @WebServlet(urlPatterns = "/", loadOnStartup = 1)
 public class UploadServlet extends HttpServlet {
