@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -19,7 +20,7 @@
       <module name="parent" target="1.8" />
       <module name="persist" target="1.8" />
       <module name="servlets" target="1.8" />
-      <module name="web" target="1.5" />
+      <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

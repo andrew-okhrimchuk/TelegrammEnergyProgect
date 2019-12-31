@@ -2,89 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6640ee8-7439-40c7-a609-14eaee33517b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_bertoncelj_jdbi_entitymapper_jdbi_entity_mapper_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_3_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__one_util_streamex_0_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_framework_2_3_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_2_3_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_server_2_3_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0_b32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_5_0_b32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_5_0_b32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_25_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_grizzly2_http_2_25_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_25_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_25_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_25_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_25_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_25_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_25_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdbi_jdbi_2_78.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_telegram_telegrambots_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_telegram_telegrambots_meta_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_telegram_telegrambotsextensions_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/botapi-2.1-jar-with-dependencies.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/botapi-2.1-sources.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/botapi-2.1.jar" afterDir="false" />
@@ -127,6 +44,10 @@
       <change afterPath="$PROJECT_DIR$/botapi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/botapi/target/surefire-reports/TEST-org.telegram.telegrambots.test.TelegramLongPollingBotTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/botapi/target/surefire-reports/TEST-org.telegram.telegrambots.test.TestDefaultBotSession.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/botapi/target/surefire-reports/org.telegram.telegrambots.test.TelegramLongPollingBotTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/botapi/target/surefire-reports/org.telegram.telegrambots.test.TestDefaultBotSession.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/log4j2-test.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/Fakes/FakeLongPollingBot.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/Fakes/FakeWebhook.class" afterDir="false" />
@@ -134,40 +55,81 @@
       <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TelegramLongPollingBotTest$TestBot.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TelegramLongPollingBotTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TestDefaultBotSession.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/src/main/java/DTO/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/src/main/java/dao/DateOfGivingOfIndicatorsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/src/main/java/model/DateOfGivingOfIndicators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/src/main/java/model/DateOfOperatorRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/src/main/java/provider/IntArrayArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/src/main/java/provider/LocalDateMapperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/src/test/java/persist/GivingTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/src/test/java/persist/dao/GivingDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/DTO/Report.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/dao/AbstractDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/dao/DateOfGivingOfIndicatorsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/dao/DateOfOperatorRequestDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/model/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/model/DateOfGivingOfIndicators.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/model/DateOfOperatorRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/DBIProvider$DBIHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/DBIProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/IntArrayArgument$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/IntArrayArgument.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/LocalDateMapperFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/TEST-persist.dao.GivingDaoTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/TEST-persist.dao.OperatorDaoTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/TEST-persist.dao.UserDaoTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/persist.dao.GivingDaoTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/persist.dao.OperatorDaoTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/persist.dao.UserDaoTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/GivingTestData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/OperatorTestData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/GivingDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/OperatorDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/common-web/common-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/common-web/target/classes/web/ThymeleafListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/common-web/target/classes/web/ThymeleafUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/common-web/target/common-web-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/common-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/servlets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/classes/UploadServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/classes/UploadServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/error_prone_annotations-2.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/guava-23.3-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/j2html-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/j2objc-annotations-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/jdbi-2.78.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/jdbi-folder-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/jsr305-1.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/persist-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/postgresql-42.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/postgresql-9.0-801.jdbc4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/streamex-0.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/templates/exception.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/templates/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/test-classes/city.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servlets/target/test-classes/payload.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/botapi/botapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/botapi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/botapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/target/classes/strings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_eo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/target/classes/strings_eo.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/target/classes/strings_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_it.properties" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/target/classes/strings_it.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_nl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/target/classes/strings_nl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_pt.properties" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/target/classes/strings_pt.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapimain/config_templates/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/botapimain/config_templates/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapimain/config_templates/sql/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/botapimain/config_templates/sql/initDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_eo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_nl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_pt.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/persist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/persist/persist.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persist/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/main/java/DBIProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/persist/src/main/java/provider/DBIProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/main/java/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/persist/src/main/java/dao/AbstractDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/persist/src/main/java/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/main/java/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/persist/src/main/java/model/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/persist/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/main/java/model/UserFlag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/test/java/persist/DBITestProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/persist/src/test/java/persist/DBITestProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/test/java/persist/UserTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/persist/src/test/java/persist/UserTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/test/java/persist/dao/AbstractDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/persist/src/test/java/persist/dao/AbstractDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/src/test/java/persist/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/persist/src/test/java/persist/dao/UserDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/DBIProvider$DBIHolder.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/DBIProvider.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/dao/AbstractDao.class" beforeDir="false" />
@@ -175,17 +137,21 @@
       <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/model/BaseEntity.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/model/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/model/UserFlag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/persist-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persist/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persist/target/persist-2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/persist-2.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/target/test-classes/persist/DBITestProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/DBITestProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/target/test-classes/persist/UserTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/UserTestData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/AbstractDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/AbstractDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/MainXml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/xml/util/JaxbParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/xml/util/StaxStreamProcessorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/xml/util/XPathProcessorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/xml/util/XsltProcessorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +217,7 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="giving_of_indicator: table" type="69fad909:PgImplModel$LocalTable" />
+        <item name="conversation_with_the_operator: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -291,9 +257,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectId" id="1Vc2GP5Z3KjEuvvRPefna203yIu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -309,11 +272,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../masterjava" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -323,10 +287,10 @@
       <recent name="D:\Stajirovka\TelegrammEnergyProgect\persist\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="provider" />
       <recent name="persist.dao" />
       <recent name="persist" />
       <recent name="dao" />
+      <recent name="provider" />
       <recent name="model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -334,7 +298,15 @@
       <recent name="D:\Stajirovka\TelegrammEnergyProgect\persist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in persist">
+  <component name="RunManager" selected="JUnit.All in botapimain">
+    <configuration name="All in botapimain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="botapimain" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in persist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="persist" />
       <option name="PACKAGE_NAME" value="" />
@@ -343,7 +315,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GivingDaoTest.getCountBetweenDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GivingDaoTest.getWithIdTelegram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="persist" />
       <extension name="coverage">
         <pattern>
@@ -353,13 +325,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="persist.dao" />
       <option name="MAIN_CLASS_NAME" value="persist.dao.GivingDaoTest" />
-      <option name="METHOD_NAME" value="getCountBetweenDate" />
+      <option name="METHOD_NAME" value="getWithIdTelegram" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GivingDaoTest.getWithIdTelegramDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="persist" />
       <extension name="coverage">
         <pattern>
@@ -368,29 +340,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="persist.dao" />
-      <option name="MAIN_CLASS_NAME" value="persist.dao.UserDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="persist" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="persist.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="persist.dao" />
-      <option name="MAIN_CLASS_NAME" value="persist.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="getUser" />
+      <option name="MAIN_CLASS_NAME" value="persist.dao.GivingDaoTest" />
+      <option name="METHOD_NAME" value="getWithIdTelegramDouble" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.getUserBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OperatorDaoTest.getWithIdTelegramCheckDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="persist" />
       <extension name="coverage">
         <pattern>
@@ -399,8 +356,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="persist.dao" />
-      <option name="MAIN_CLASS_NAME" value="persist.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="getUserBean" />
+      <option name="MAIN_CLASS_NAME" value="persist.dao.OperatorDaoTest" />
+      <option name="METHOD_NAME" value="getWithIdTelegramCheckDouble" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -408,11 +365,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in botapimain" />
         <item itemvalue="JUnit.All in persist" />
-        <item itemvalue="JUnit.UserDaoTest" />
-        <item itemvalue="JUnit.UserDaoTest.getUserBean" />
-        <item itemvalue="JUnit.UserDaoTest.getUser" />
-        <item itemvalue="JUnit.GivingDaoTest.getCountBetweenDate" />
+        <item itemvalue="JUnit.GivingDaoTest.getWithIdTelegram" />
+        <item itemvalue="JUnit.GivingDaoTest.getWithIdTelegramDouble" />
+        <item itemvalue="JUnit.OperatorDaoTest.getWithIdTelegramCheckDouble" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +397,8 @@
       <updated>1577537965264</updated>
       <workItem from="1577537967797" duration="11443000" />
       <workItem from="1577591360012" duration="29827000" />
-      <workItem from="1577681028335" duration="19742000" />
+      <workItem from="1577681028335" duration="27535000" />
+      <workItem from="1577768923195" duration="4961000" />
     </task>
     <task id="LOCAL-00001" summary="Убрал захаркодженный ключ-телеграмм, и сделал его считку с config.properties">
       <created>1577545181552</created>
@@ -456,7 +414,28 @@
       <option name="project" value="LOCAL" />
       <updated>1577546326084</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed module persist, it is good work&#10;Added test to him&#10;Added modelEntytes DateOfGivingOfIndicators and DateOfOperatorRequest&#10;Create test to DateOfGivingOfIndicators&#10;&#10;Wish create test to DateOfOperatorRequest and methods to him">
+      <created>1577708919290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577708919291</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create test to DateOfOperatorRequest and work methods to him">
+      <created>1577719288538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577719288538</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed dependensy in Servlet">
+      <created>1577771861452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577771861452</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +457,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Убрал захаркодженный ключ-телеграмм, и сделал его считку с config.properties" />
     <MESSAGE value="Added module persist, but he is not work such as i wish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added module persist, but he is not work such as i wish" />
+    <MESSAGE value="Fixed module persist, it is good work&#10;Added test to him&#10;Added modelEntytes DateOfGivingOfIndicators and DateOfOperatorRequest&#10;Create test to DateOfGivingOfIndicators&#10;&#10;Wish create test to DateOfOperatorRequest and methods to him" />
+    <MESSAGE value="Create test to DateOfOperatorRequest and work methods to him" />
+    <MESSAGE value="Fixed dependensy in Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed dependensy in Servlet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577600365866">
@@ -493,54 +475,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="755" y="388" width="410" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1577601267088" />
-    <state x="837" y="227" width="594" height="585" key="#xdebugger.evaluate" timestamp="1577708362616">
+    <state x="690" y="269" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1577718800363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="837" y="227" width="594" height="585" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1577708362616" />
-    <state x="596" y="116" key="CommitChangelistDialog2" timestamp="1577546325288">
+    <state x="690" y="269" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577718800363" />
+    <state x="837" y="227" width="594" height="585" key="#xdebugger.evaluate" timestamp="1577718523235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="596" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577546325288" />
-    <state x="758" y="224" key="ExecutionTargetDialog" timestamp="1577683022191">
+    <state x="837" y="227" width="594" height="585" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1577718523235" />
+    <state x="596" y="116" key="CommitChangelistDialog2" timestamp="1577774543710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="758" y="224" key="ExecutionTargetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577683022191" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1577557649527">
+    <state x="596" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577774543710" />
+    <state x="277" y="85" key="DiffContextDialog" timestamp="1577708559514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577557649527" />
-    <state width="1876" height="333" key="GridCell.Tab.0.bottom" timestamp="1577708428746">
+    <state x="277" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577708559514" />
+    <state x="758" y="224" key="ExecutionTargetDialog" timestamp="1577715348562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577708428746" />
-    <state width="1876" height="333" key="GridCell.Tab.0.center" timestamp="1577708428746">
+    <state x="758" y="224" key="ExecutionTargetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577715348562" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1577770960183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577708428746" />
-    <state width="1876" height="333" key="GridCell.Tab.0.left" timestamp="1577708428746">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577770960183" />
+    <state width="1876" height="351" key="GridCell.Tab.0.bottom" timestamp="1577774532953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577708428746" />
-    <state width="1876" height="333" key="GridCell.Tab.0.right" timestamp="1577708428746">
+    <state width="1876" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577774532953" />
+    <state width="1876" height="351" key="GridCell.Tab.0.center" timestamp="1577774532953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577708428746" />
-    <state width="1876" height="333" key="GridCell.Tab.1.bottom" timestamp="1577708428747">
+    <state width="1876" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577774532953" />
+    <state width="1876" height="351" key="GridCell.Tab.0.left" timestamp="1577774532953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577708428747" />
-    <state width="1876" height="333" key="GridCell.Tab.1.center" timestamp="1577708428746">
+    <state width="1876" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577774532953" />
+    <state width="1876" height="351" key="GridCell.Tab.0.right" timestamp="1577774532953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="333" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577708428746" />
-    <state width="1876" height="333" key="GridCell.Tab.1.left" timestamp="1577708428746">
+    <state width="1876" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577774532953" />
+    <state width="1876" height="333" key="GridCell.Tab.1.bottom" timestamp="1577736655608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="333" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577708428746" />
-    <state width="1876" height="333" key="GridCell.Tab.1.right" timestamp="1577708428747">
+    <state width="1876" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577736655608" />
+    <state width="1876" height="333" key="GridCell.Tab.1.center" timestamp="1577736655608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="333" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577708428747" />
+    <state width="1876" height="333" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577736655608" />
+    <state width="1876" height="333" key="GridCell.Tab.1.left" timestamp="1577736655608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="333" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577736655608" />
+    <state width="1876" height="333" key="GridCell.Tab.1.right" timestamp="1577736655608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="333" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577736655608" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1577600314175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -549,14 +539,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="233" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577540867948" />
-    <state x="440" y="96" key="SettingsEditor" timestamp="1577538386312">
+    <state x="440" y="96" key="SettingsEditor" timestamp="1577772002125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577538386312" />
-    <state x="552" y="243" key="Vcs.Push.Dialog.v2" timestamp="1577546329406">
+    <state x="440" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577772002125" />
+    <state x="552" y="243" key="Vcs.Push.Dialog.v2" timestamp="1577771863084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577546329406" />
+    <state x="552" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577771863084" />
     <state x="741" y="235" key="git4idea.branch.GitSmartOperationDialog" timestamp="1577545244540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -565,9 +555,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577616415883" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577706476056">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577719876804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577706476056" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577719876804" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/persist/src/test/java/persist/dao/GivingDaoTest.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/persist/src/test/java/persist/dao/OperatorDaoTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/persist/src/test/java/persist/dao/GivingDaoTest.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
