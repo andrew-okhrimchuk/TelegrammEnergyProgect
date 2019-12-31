@@ -28,7 +28,7 @@ public abstract class DateOfGivingOfIndicatorsDao implements AbstractDao {
     @SqlQuery("SELECT * FROM giving_of_indicator WHERE id_telegram = :id_telegram AND date = :date")
     public abstract DateOfGivingOfIndicators getWithIdTelegram(@Bind("id_telegram") int id_telegram, @Bind("date") LocalDate date);
 
-    @SqlQuery("SELECT * FROM giving_of_indicator WHERE id_telegram = :id_telegram")
+    @SqlQuery("SELECT * FROM giving_of_indicator WHERE id_telegram = :id_telegram ORDER BY date")
     public abstract List<DateOfGivingOfIndicators> getWithIdTelegram(@Bind("id_telegram") int id_telegram);
 
     @SqlQuery("SELECT COUNT (*) FROM giving_of_indicator WHERE  date >= :start AND date <= :end")

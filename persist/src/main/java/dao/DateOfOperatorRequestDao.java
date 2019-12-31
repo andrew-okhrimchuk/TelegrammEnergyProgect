@@ -28,7 +28,7 @@ public abstract class DateOfOperatorRequestDao implements AbstractDao {
     @SqlQuery("SELECT * FROM conversation_with_the_operator WHERE id_telegram = :id_telegram AND date = :date")
     public abstract DateOfOperatorRequest getWithIdTelegramDate(@Bind("id_telegram") int id_telegram, @Bind("date") LocalDate date);
 
-    @SqlQuery("SELECT * FROM conversation_with_the_operator WHERE id_telegram = :id_telegram")
+    @SqlQuery("SELECT * FROM conversation_with_the_operator WHERE id_telegram = :id_telegram ORDER BY date")
     public abstract List<DateOfOperatorRequest> getWithIdTelegram(@Bind("id_telegram") int id_telegram);
 
     @SqlQuery("SELECT COUNT (*) FROM conversation_with_the_operator WHERE  date >= :start AND date <= :end")
