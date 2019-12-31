@@ -26,7 +26,7 @@ public class OperatorTestData {
         dateOfOperatorRequestMinusOneDay = new DateOfOperatorRequest( 444444, LocalDate.now().minusDays(1));
         dateOfOperatorRequestMinusTwoDays = new DateOfOperatorRequest( 444444, LocalDate.now().minusDays(2));
         FIST5_OfOperatorRequest = ImmutableList.of(dateOfOperatorRequest1, dateOfOperatorRequest2);
-        TWO_OfOperatorRequest = ImmutableList.of(dateOfOperatorRequestMinusOneDay, dateOfOperatorRequestMinusTwoDays);
+        TWO_OfOperatorRequest = ImmutableList.of(dateOfOperatorRequestMinusTwoDays, dateOfOperatorRequestMinusOneDay);
     }
 
     public static void setUp() {

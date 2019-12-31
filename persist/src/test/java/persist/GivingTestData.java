@@ -26,7 +26,7 @@ public class GivingTestData {
         dateOfGivingOfIndicatorsMinusOneDay = new DateOfGivingOfIndicators( 444444, LocalDate.now().minusDays(1));
         dateOfGivingOfIndicatorsMinusTwoDays = new DateOfGivingOfIndicators( 444444, LocalDate.now().minusDays(2));
         FIST5_DateOfGivingOfIndicatorsS = ImmutableList.of(dateOfGivingOfIndicators1, dateOfGivingOfIndicators2);
-        TWO_DateOfGivingOfIndicatorsS = ImmutableList.of(dateOfGivingOfIndicatorsMinusOneDay, dateOfGivingOfIndicatorsMinusTwoDays);
+        TWO_DateOfGivingOfIndicatorsS = ImmutableList.of(dateOfGivingOfIndicatorsMinusTwoDays, dateOfGivingOfIndicatorsMinusOneDay);
     }
 
     public static void setUp() {
