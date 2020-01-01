@@ -14,5 +14,6 @@
         <module>botapi</module>
         <module>persist</module>
         <module>web</module>
+        <module>parent-web</module>
     </modules>
 </project>

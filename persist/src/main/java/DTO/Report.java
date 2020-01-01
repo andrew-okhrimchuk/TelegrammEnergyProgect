@@ -1,16 +1,18 @@
 package DTO;
 
 
-import lombok.*;
-import java.io.Serializable;
 
-@ToString
-@Getter
-@Setter
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode
+@Data
 public class Report implements Serializable {
-    private Data start, end;
+    private LocalDate start, end;
     private int indicators, request;
 }
