@@ -18,7 +18,7 @@ import java.util.Date;
 import static web.ThymeleafListener.engine;
 
 
-@WebServlet(urlPatterns = "/", loadOnStartup = 1)
+@WebServlet("/")
 public class ReportServlet extends HttpServlet {
     DateOfOperatorRequestDao daoOperatorD = DBIProvider.getDao(DateOfOperatorRequestDao.class);
     DateOfGivingOfIndicatorsDao daoIndicator = DBIProvider.getDao(DateOfGivingOfIndicatorsDao.class);
