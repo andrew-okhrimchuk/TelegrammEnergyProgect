@@ -13,7 +13,7 @@
         <module>parent</module>
         <module>botapi</module>
         <module>persist</module>
-        <module>web</module>
+        <module>servlets</module>
         <module>parent-web</module>
     </modules>
 </project>
