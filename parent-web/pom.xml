@@ -18,6 +18,7 @@
 
     <build>
         <plugins>
+            <!--  http://stackoverflow.com/questions/4305935/is-it-possible-to-supply-tomcat6s-context-xml-file-via-the-maven-cargo-plugin#4417945 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -28,11 +29,11 @@
             </plugin>
             <plugin>
                 <groupId>org.codehaus.cargo</groupId>
-                                <artifactId>cargo-maven2-plugin</artifactId>
-                                <version>1.6.5</version>
-                                <configuration>
-                                    <container>
-                                        <containerId>tomcat8x</containerId>
+                    <artifactId>cargo-maven2-plugin</artifactId>
+                        <version>1.6.5</version>
+                            <configuration>
+                                <container>
+                                    <containerId>tomcat8x</containerId>
                                         <systemProperties>
                                             <file.encoding>UTF-8</file.encoding>
                                         </systemProperties>
@@ -65,7 +66,6 @@
                                 </configuration>
                             </plugin>
         </plugins>
-
     </build>
 
     <dependencies>

@@ -1,5 +1,6 @@
 import DTO.Report;
 import dao.*;
+import org.slf4j.Logger;
 import org.thymeleaf.context.WebContext;
 import provider.DBIProvider;
 
@@ -16,23 +17,32 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
 
+import static org.slf4j.LoggerFactory.getLogger;
 import static web.ThymeleafListener.engine;
 
 
 @WebServlet(urlPatterns = "/servlets")
 public class ReportServlet extends HttpServlet {
+    private static final Logger log = getLogger(DBIProvider.class);
+
     DateOfOperatorRequestDao daoOperatorD = DBIProvider.getDao(DateOfOperatorRequestDao.class);
     DateOfGivingOfIndicatorsDao daoIndicator = DBIProvider.getDao(DateOfGivingOfIndicatorsDao.class);
+
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html");
-        PrintWriter out = null;
-        try {
-            out = response.getWriter();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        out.println("<h3>Hello World!</h3>");
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        log.info("Start doGet of '/servlets'");
+        final WebContext webContext = new WebContext(req, resp, req.getServletContext(), req.getLocale());
+        String start = req.getParameter("start");
+        String end = req.getParameter("end");
+        Report report = new Report();
+        report.setStart(LocalDate.now());
+        report.setEnd(LocalDate.now());
+        log.info("middle doGet of '/servlets'");
+        report.setIndicators(daoIndicator.getAllCount());
+        report.setRequest(daoOperatorD.getAllCount());
+        webContext.setVariable("report", report);
+        engine.process("result", webContext, resp.getWriter());
+        log.info("End doGet of '/servlets'");
     }
 
     @Override

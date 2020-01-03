@@ -14,4 +14,11 @@ public class UserDaoTest  {
         DateOfOperatorRequestDao daoOperatorD = DBIProvider.getDao(DateOfOperatorRequestDao.class);
     }
 
+    @Test
+    public void getUser2() {
+
+        DateOfOperatorRequestDao daoOperatorD = DBIProvider.getDao(DateOfOperatorRequestDao.class);
+        daoOperatorD.getAllCount();
+    }
+
 }

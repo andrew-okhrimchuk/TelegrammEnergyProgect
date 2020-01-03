@@ -38,15 +38,15 @@ public class DBIProvider {
             else {
                 try {log.info("Init jDBI with  JNDI");
 
-                    Properties prop = new Properties();
+                   // Properties prop = new Properties();
                     //prop.load(new FileReader(file));
                   // prop.load(DBIProvider.class.getResourceAsStream("database.properties"));
-                    prop.load(DBIProvider.class.getResourceAsStream("/database.properties"));
+                  //  prop.load(DBIProvider.class.getResourceAsStream("/database.properties"));
+                  //  dbi = new DBI(prop.getProperty("url"), prop);
 
+                    InitialContext ctx = new InitialContext();
+                    dbi = new DBI((DataSource) ctx.lookup("java:/comp/env/jdbc/postgres"));
 
-                    //InitialContext ctx = new InitialContext();
-                    //dbi = new DBI((DataSource) ctx.lookup("java:/comp/env/jdbc/postgres"));
-                    dbi = new DBI(prop.getProperty("url"), prop);
                 } catch (Exception ex) {
                     log.error("PostgreSQL initialization failed", ex);
                     System.out.println(ex);
