@@ -33,14 +33,14 @@ public class AppRead {
             prop.load(input);
 
             //get the property value and print it out
-            System.out.println(prop.getProperty("url"));
+            System.out.println(prop.getProperty("urlpost"));
 
         } catch (IOException ex) {
             ex.printStackTrace();
             BotLogger.error(LOGTAG, ex );
         }
         BotLogger.info(LOGTAG, "End method getUrl in " +  LOGTAG);
-        return prop.getProperty("url");
+        return prop.getProperty("urlpost");
 
     }
 
@@ -67,6 +67,7 @@ public class AppRead {
         }
         BotLogger.info(LOGTAG, "End method getToken in " +  LOGTAG);
         return prop.getProperty("token");
-
     }
+
+
 }

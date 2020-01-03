@@ -45,6 +45,16 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
     </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>${telegrammEnergyProgect.config}</directory>
+                <filtering>true</filtering>
+            </resource>
+            <!--  <resource>
+                  <directory>src/main/resources</directory>
+              </resource>-->
+        </resources>
+    </build>
 </project>

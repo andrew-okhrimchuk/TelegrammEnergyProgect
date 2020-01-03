@@ -1,6 +1,8 @@
 package provider;
 
 import com.github.rkmk.mapper.CustomMapperFactory;
+import dao.DateOfGivingOfIndicatorsDao;
+import dao.DateOfOperatorRequestDao;
 import org.skife.jdbi.v2.DBI;
 import org.skife.jdbi.v2.logging.SLF4JLog;
 import org.skife.jdbi.v2.tweak.ConnectionFactory;
@@ -9,6 +11,10 @@ import dao.AbstractDao;
 
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
+
+import java.io.File;
+import java.io.FileReader;
+import java.util.Properties;
 
 import static org.slf4j.LoggerFactory.getLogger;
 
@@ -21,16 +27,29 @@ public class DBIProvider {
         static final DBI jDBI;
 
         static {
+
             final DBI dbi;
+            //File file = new File(getClass().getResource("/").getPath() + "../resourses/" + file;"database.properties");
+
             if (connectionFactory != null) {
                 log.info("Init jDBI with  connectionFactory");
                 dbi = new DBI(connectionFactory);
-            } else {
-                try {
-                    log.info("Init jDBI with  JNDI");
-                    InitialContext ctx = new InitialContext();
-                    dbi = new DBI((DataSource) ctx.lookup("java:/comp/env/jdbc/postgres"));
+            }
+            else {
+                try {log.info("Init jDBI with  JNDI");
+
+                    Properties prop = new Properties();
+                    //prop.load(new FileReader(file));
+                  // prop.load(DBIProvider.class.getResourceAsStream("database.properties"));
+                    prop.load(DBIProvider.class.getResourceAsStream("/database.properties"));
+
+
+                    //InitialContext ctx = new InitialContext();
+                    //dbi = new DBI((DataSource) ctx.lookup("java:/comp/env/jdbc/postgres"));
+                    dbi = new DBI(prop.getProperty("url"), prop);
                 } catch (Exception ex) {
+                    log.error("PostgreSQL initialization failed", ex);
+                    System.out.println(ex);
                     throw new IllegalStateException("PostgreSQL initialization failed", ex);
                 }
             }
@@ -55,4 +74,6 @@ public class DBIProvider {
     public static <T extends AbstractDao> T getDao(Class<T> daoClass) {
         return DBIHolder.jDBI.onDemand(daoClass);
     }
+
+
 }

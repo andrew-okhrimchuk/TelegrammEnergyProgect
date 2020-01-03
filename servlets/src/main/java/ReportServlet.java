@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.PrintWriter;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
@@ -18,23 +19,20 @@ import java.util.Date;
 import static web.ThymeleafListener.engine;
 
 
-@WebServlet("/")
+@WebServlet(urlPatterns = "/servlets")
 public class ReportServlet extends HttpServlet {
     DateOfOperatorRequestDao daoOperatorD = DBIProvider.getDao(DateOfOperatorRequestDao.class);
     DateOfGivingOfIndicatorsDao daoIndicator = DBIProvider.getDao(DateOfGivingOfIndicatorsDao.class);
-
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        final WebContext webContext = new WebContext(req, resp, req.getServletContext(), req.getLocale());
-        String start = req.getParameter("start");
-        String end = req.getParameter("end");
-        Report report = new Report();
-        report.setStart(LocalDate.now());
-        report.setEnd(LocalDate.now());
-        report.setIndicators(daoIndicator.getAllCount());
-        report.setRequest(daoOperatorD.getAllCount());
-        webContext.setVariable("report", report);
-        engine.process("result", webContext, resp.getWriter());
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
+        PrintWriter out = null;
+        try {
+            out = response.getWriter();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        out.println("<h3>Hello World!</h3>");
     }
 
     @Override
