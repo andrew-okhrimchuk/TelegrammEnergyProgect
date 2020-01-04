@@ -1,4 +1,4 @@
-package org.telegram.ImplService.startSubMenu;
+package org.telegram.implService.startSubMenu;
 
 import lombok.NoArgsConstructor;
 import lombok.ToString;
@@ -8,7 +8,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.shiro.session.Session;
-import org.telegram.ImplService.BaseEntityOfCommands;
+import org.telegram.implService.BaseEntityOfCommands;
 import org.telegram.http_config.MultiHttpClientConnThread;
 import org.telegram.http_config.PoolingHttpClient;
 import org.telegram.http_config.PostHttpClient;

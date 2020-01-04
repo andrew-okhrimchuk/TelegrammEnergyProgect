@@ -1,4 +1,4 @@
-package org.telegram.ImplService;
+package org.telegram.implService;
 
 import lombok.*;
 import org.apache.shiro.session.Session;

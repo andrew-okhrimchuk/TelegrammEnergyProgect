@@ -3626,7 +3626,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_10:31:4] {INFO} BotWithSessionHandlers - Start method onUpdateReceived(Update update, Optional<Session> optionalSession). ID User = 1000208268
 [14_12_2019_10:31:4] {INFO} MainMenu - Start method main_menu. ID User = null
 [14_12_2019_10:31:4] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.ImplService.MainMenu.MainMenu.getSendMessage(MainMenu.java:26)
+	at org.telegram.implService.MainMenu.MainMenu.getSendMessage(MainMenu.java:26)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:33)
 	at session.TelegramLongPollingSessionBot.onUpdateReceived(TelegramLongPollingSessionBot.java:65)
@@ -3636,7 +3636,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_10:32:51] {INFO} BotWithSessionHandlers - Start method onUpdateReceived(Update update, Optional<Session> optionalSession). ID User = 1000208268
 [14_12_2019_10:32:51] {INFO} MainMenu - Start method main_menu. ID User = null
 [14_12_2019_10:32:51] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.ImplService.MainMenu.MainMenu.getSendMessage(MainMenu.java:26)
+	at org.telegram.implService.MainMenu.MainMenu.getSendMessage(MainMenu.java:26)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:33)
 	at session.TelegramLongPollingSessionBot.onUpdateReceived(TelegramLongPollingSessionBot.java:65)
@@ -3646,7 +3646,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_10:33:26] {INFO} BotWithSessionHandlers - Start method onUpdateReceived(Update update, Optional<Session> optionalSession). ID User = 1000208268
 [14_12_2019_10:33:26] {INFO} Help - Start method Help. ID User = null
 [14_12_2019_10:33:26] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.ImplService.MainMenu.Help.getSendMessage(Help.java:28)
+	at org.telegram.implService.MainMenu.Help.getSendMessage(Help.java:28)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:43)
 	at session.TelegramLongPollingSessionBot.onUpdateReceived(TelegramLongPollingSessionBot.java:65)
@@ -3792,8 +3792,8 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_11:12:30] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Двозонний
 [14_12_2019_11:12:30] {INFO} Insert_Your_Type - Start method Insert_Your_Type. ID User = 1000208268
 [14_12_2019_11:12:30] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:58)
-	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
+	at org.telegram.implService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:58)
+	at org.telegram.implService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.startSubMenu(BotWithSessionHandlers_3.java:92)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:72)
@@ -3823,8 +3823,8 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_11:18:7] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Двозонний
 [14_12_2019_11:18:7] {INFO} Insert_Your_Type - Start method Insert_Your_Type. ID User = 1000208268
 [14_12_2019_11:18:7] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:60)
-	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
+	at org.telegram.implService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:60)
+	at org.telegram.implService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.startSubMenu(BotWithSessionHandlers_3.java:92)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:72)
@@ -3856,8 +3856,8 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_11:20:11] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Звичайний
 [14_12_2019_11:20:11] {INFO} Insert_Your_Type - Start method Insert_Your_Type. ID User = 1000208268
 [14_12_2019_11:20:31] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:60)
-	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
+	at org.telegram.implService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:60)
+	at org.telegram.implService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.startSubMenu(BotWithSessionHandlers_3.java:92)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:72)
@@ -4557,3 +4557,21 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [31_12_2019_21:14:52] {INFO} MainMenu - Start method getSendMessage in MainMenu. ID User = 146227982
 [31_12_2019_21:14:52] {INFO} MainMenu - End method getSendMessage in MainMenu. ID User = 146227982
 [31_12_2019_21:14:52] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_13:50:49] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_13:50:49] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_13:50:49] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_13:50:49] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_13:50:50] {SEVERE} MAIN - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error removing old webhook
+	at org.telegram.telegrambots.util.WebhookUtils.clearWebhook(WebhookUtils.java:79)
+	at org.telegram.telegrambots.bots.TelegramLongPollingBot.clearWebhook(TelegramLongPollingBot.java:25)
+	at org.telegram.telegrambots.meta.TelegramBotsApi.registerBot(TelegramBotsApi.java:120)
+	at org.telegram.Main.main(Main.java:38)
+[4_1_2020_13:53:6] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_13:53:6] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_13:53:6] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_13:53:6] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_13:53:7] {SEVERE} MAIN - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error removing old webhook
+	at org.telegram.telegrambots.util.WebhookUtils.clearWebhook(WebhookUtils.java:79)
+	at org.telegram.telegrambots.bots.TelegramLongPollingBot.clearWebhook(TelegramLongPollingBot.java:25)
+	at org.telegram.telegrambots.meta.TelegramBotsApi.registerBot(TelegramBotsApi.java:120)
+	at org.telegram.Main.main(Main.java:38)

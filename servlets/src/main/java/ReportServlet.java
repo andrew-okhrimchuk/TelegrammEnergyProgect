@@ -1,4 +1,3 @@
-import DTO.Report;
 import dao.*;
 import org.slf4j.Logger;
 import org.thymeleaf.context.WebContext;
@@ -12,11 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.PrintWriter;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
 
+import static java.time.temporal.TemporalAdjusters.firstDayOfYear;
+import static java.time.temporal.TemporalAdjusters.lastDayOfYear;
 import static org.slf4j.LoggerFactory.getLogger;
 import static web.ThymeleafListener.engine;
 
@@ -32,41 +33,57 @@ public class ReportServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         log.info("Start doGet of '/servlets'");
         final WebContext webContext = new WebContext(req, resp, req.getServletContext(), req.getLocale());
-        String start = req.getParameter("start");
-        String end = req.getParameter("end");
-        Report report = new Report();
-        report.setStart(LocalDate.now());
-        report.setEnd(LocalDate.now());
-        log.info("middle doGet of '/servlets'");
-        report.setIndicators(daoIndicator.getAllCount());
-        report.setRequest(daoOperatorD.getAllCount());
-        webContext.setVariable("report", report);
+        webContext.setVariable("report", buildReport(req));
+        webContext.setVariable("default_start", req.getParameter("start"));
+        webContext.setVariable("default_end", req.getParameter("end"));
+
         engine.process("result", webContext, resp.getWriter());
-        log.info("End doGet of '/servlets'");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        final WebContext webContext = new WebContext(req, resp, req.getServletContext(), req.getLocale());
-
-        try {
-//            http://docs.oracle.com/javaee/6/tutorial/doc/glraq.html
-            Part filePart = req.getPart("fileToUpload");
-            if (filePart.getSize() == 0) {
-                throw new IllegalStateException("Upload file have not been selected");
-            }
-            try (InputStream is = filePart.getInputStream()) {
-               /* List<User> users = userProcessor.process(is);
-                webContext.setVariable("users", users);
-                engine.process("result", webContext, resp.getWriter());*/
-            }
-        } catch (Exception e) {
-            webContext.setVariable("exception", e);
-            engine.process("exception", webContext, resp.getWriter());
-        }
     }
 
     public static Date asDate(LocalDate localDate) {
         return Date.from(localDate.atStartOfDay().atZone(ZoneId.systemDefault()).toInstant());
     }
+
+
+
+    private Report buildReport(HttpServletRequest req){
+        Report report = new Report();
+        LocalDate start = LocalDate.now();
+        LocalDate end = LocalDate.now();
+
+        if (req.getParameter("start")==null){
+            start = LocalDate.now().with(firstDayOfYear());
+        } else if (req.getParameter("start")!=null){
+            start = (LocalDateTime.parse(req.getParameter("start")).toLocalDate());
+        }
+
+        if (req.getParameter("end")==null){
+            end = LocalDate.now().with(lastDayOfYear());
+        } else if(req.getParameter("end")!=null){
+            end = (LocalDateTime.parse(req.getParameter("end")).toLocalDate());
+        }
+
+        report.setStart(start);
+        report.setEnd(end);
+        report.setIndicators(daoIndicator.getCountBetween(start, end));
+        report.setRequest(daoOperatorD.getCountBetween(start, end));
+        return report;
+    }
+    /*@Override
+    protected void service(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
+    }
+
+        String start = req.getParameter("start");
+        String end = req.getParameter("end");
+
+
+
+    */
 }

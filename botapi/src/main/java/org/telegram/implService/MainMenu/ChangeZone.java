@@ -1,9 +1,9 @@
-package org.telegram.ImplService.MainMenu;
+package org.telegram.implService.MainMenu;
 
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.apache.shiro.session.Session;
-import org.telegram.ImplService.BaseEntityOfCommands;
+import org.telegram.implService.BaseEntityOfCommands;
 import org.telegram.service.Menu;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;

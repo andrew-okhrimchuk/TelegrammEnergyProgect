@@ -1,38 +1,44 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Result users</title>
+    <title>Report</title>
 </head>
 <body>
 <!--<h4><a href="">Upload XML</a></h4>-->
-<h3>Result user</h3>
+<h3>Report on number of submitted indicators and calls to operators</h3>
 <form action="" method="get">
 <p>
-    <input type="datetime-local" name="start" id="start"><br/>
+    <label class="control-label col-sm-3" for="end">Enter start date and time:</label>
+    <input type="datetime-local" name="start" id="start" th:value="${default_start}"><br/>
 </p>
-
 <p>
-    <input type="datetime-loca" name="end" id="end"><br/>
+    <label class="control-label col-sm-3" for="end">Enter end date and time:</label>
+    <input type="datetime-local" name="end" id="end" th:value="${default_end}"><br/>
 </p>
+    <p>
+        <input type="submit" value="Update report" name="submit">
+    </p>
 </form>
-<table border="1" cellpadding="8" cellspacing="0">
+
+<table border="1" cellpadding="8" cellspacing="0" width="50%">
     <thead>
     <tr>
-        <th>Дата начала</th>
-        <th>Дата окончанияd</th>
-        <th>Количество поданных показателей</th>
-        <th>Количество обращений к операторам</th>
+        <th width="5%">Date start</th>
+        <th width="5%">Date end</th>
+        <th width="8%">Number of indicators provided for the period</th>
+        <th width="8%">Number of calls to call center operators for the period</th>
     </tr>
     </thead>
     <tbody>
     <!--/*@thymesVar id="users" type="java.util.List<ru.javaops.masterjava.model.User>"*/-->
-    <tr th:each="user : ${users}">
-        <td th:text="${user.fullName}"></td>
-        <td th:utext="${user.email}"></td>
-        <td th:text="${user.flag}"></td>
-        <td th:text="${user.flag}"></td>
+    <tr th:each="user : ${report}" align="center">
+        <td th:text="${report.start}"></td>
+        <td th:utext="${report.end}"></td>
+        <td th:text="${report.indicators}"></td>
+        <td th:text="${report.request}"></td>
     </tr>
     </tbody>
 </table>
+
 </body>
 </html>

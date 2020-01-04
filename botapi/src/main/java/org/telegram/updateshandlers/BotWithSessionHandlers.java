@@ -1,9 +1,9 @@
 package org.telegram.updateshandlers;
 
 import org.apache.shiro.session.Session;
-import org.telegram.ImplService.MainMenu.*;
-import org.telegram.ImplService.chatSubMenu.ChatSender;
-import org.telegram.ImplService.startSubMenu.*;
+import org.telegram.implService.MainMenu.*;
+import org.telegram.implService.chatSubMenu.ChatSender;
+import org.telegram.implService.startSubMenu.*;
 import org.telegram.data.SubMenuAttribute;
 import org.telegram.service.*;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
