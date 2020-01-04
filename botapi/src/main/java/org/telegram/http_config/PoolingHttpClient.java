@@ -18,7 +18,7 @@ import org.telegram.telegrambots.meta.logging.BotLogger;
 @NoArgsConstructor
 public class PoolingHttpClient {
     private static CloseableHttpClient instance;
-    public static final String LOGTAG = "PoolingHttpClient_2";
+    public static final String LOGTAG = "PoolingHttpClient";
 
     public static synchronized CloseableHttpClient getInstance(){
         if(instance == null){

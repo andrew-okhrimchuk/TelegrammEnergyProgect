@@ -3626,7 +3626,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_10:31:4] {INFO} BotWithSessionHandlers - Start method onUpdateReceived(Update update, Optional<Session> optionalSession). ID User = 1000208268
 [14_12_2019_10:31:4] {INFO} MainMenu - Start method main_menu. ID User = null
 [14_12_2019_10:31:4] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.implService.MainMenu.MainMenu.getSendMessage(MainMenu.java:26)
+	at org.telegram.ImplService.MainMenu.MainMenu.getSendMessage(MainMenu.java:26)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:33)
 	at session.TelegramLongPollingSessionBot.onUpdateReceived(TelegramLongPollingSessionBot.java:65)
@@ -3636,7 +3636,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_10:32:51] {INFO} BotWithSessionHandlers - Start method onUpdateReceived(Update update, Optional<Session> optionalSession). ID User = 1000208268
 [14_12_2019_10:32:51] {INFO} MainMenu - Start method main_menu. ID User = null
 [14_12_2019_10:32:51] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.implService.MainMenu.MainMenu.getSendMessage(MainMenu.java:26)
+	at org.telegram.ImplService.MainMenu.MainMenu.getSendMessage(MainMenu.java:26)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:33)
 	at session.TelegramLongPollingSessionBot.onUpdateReceived(TelegramLongPollingSessionBot.java:65)
@@ -3646,7 +3646,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_10:33:26] {INFO} BotWithSessionHandlers - Start method onUpdateReceived(Update update, Optional<Session> optionalSession). ID User = 1000208268
 [14_12_2019_10:33:26] {INFO} Help - Start method Help. ID User = null
 [14_12_2019_10:33:26] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.implService.MainMenu.Help.getSendMessage(Help.java:28)
+	at org.telegram.ImplService.MainMenu.Help.getSendMessage(Help.java:28)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:43)
 	at session.TelegramLongPollingSessionBot.onUpdateReceived(TelegramLongPollingSessionBot.java:65)
@@ -3792,8 +3792,8 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_11:12:30] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Двозонний
 [14_12_2019_11:12:30] {INFO} Insert_Your_Type - Start method Insert_Your_Type. ID User = 1000208268
 [14_12_2019_11:12:30] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.implService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:58)
-	at org.telegram.implService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
+	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:58)
+	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.startSubMenu(BotWithSessionHandlers_3.java:92)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:72)
@@ -3823,8 +3823,8 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_11:18:7] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Двозонний
 [14_12_2019_11:18:7] {INFO} Insert_Your_Type - Start method Insert_Your_Type. ID User = 1000208268
 [14_12_2019_11:18:7] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.implService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:60)
-	at org.telegram.implService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
+	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:60)
+	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.startSubMenu(BotWithSessionHandlers_3.java:92)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:72)
@@ -3856,8 +3856,8 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [14_12_2019_11:20:11] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Звичайний
 [14_12_2019_11:20:11] {INFO} Insert_Your_Type - Start method Insert_Your_Type. ID User = 1000208268
 [14_12_2019_11:20:31] {SEVERE} BOTSESSION - java.lang.NullPointerException
-	at org.telegram.implService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:60)
-	at org.telegram.implService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
+	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.setTextEqualTypeZone(Insert_Your_Type.java:60)
+	at org.telegram.ImplService.startSubMenu.Insert_Your_Type.getSendMessage(Insert_Your_Type.java:41)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.send_massege(BotWithSessionHandlers_3.java:114)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.startSubMenu(BotWithSessionHandlers_3.java:92)
 	at org.telegram.updateshandlers.BotWithSessionHandlers_3.onUpdateReceived(BotWithSessionHandlers_3.java:72)
@@ -4575,3 +4575,445 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.telegram.telegrambots.bots.TelegramLongPollingBot.clearWebhook(TelegramLongPollingBot.java:25)
 	at org.telegram.telegrambots.meta.TelegramBotsApi.registerBot(TelegramBotsApi.java:120)
 	at org.telegram.Main.main(Main.java:38)
+[4_1_2020_14:2:23] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:2:23] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:2:23] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:2:23] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:2:24] {SEVERE} MAIN - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error removing old webhook
+	at org.telegram.telegrambots.util.WebhookUtils.clearWebhook(WebhookUtils.java:79)
+	at org.telegram.telegrambots.bots.TelegramLongPollingBot.clearWebhook(TelegramLongPollingBot.java:25)
+	at org.telegram.telegrambots.meta.TelegramBotsApi.registerBot(TelegramBotsApi.java:120)
+	at org.telegram.Main.main(Main.java:38)
+[4_1_2020_14:7:0] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:7:0] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:7:0] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:7:0] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:7:0] {SEVERE} MAIN - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error removing old webhook
+	at org.telegram.telegrambots.util.WebhookUtils.clearWebhook(WebhookUtils.java:79)
+	at org.telegram.telegrambots.bots.TelegramLongPollingBot.clearWebhook(TelegramLongPollingBot.java:25)
+	at org.telegram.telegrambots.meta.TelegramBotsApi.registerBot(TelegramBotsApi.java:120)
+	at org.telegram.Main.main(Main.java:38)
+[4_1_2020_14:11:25] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:11:25] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:11:25] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:11:25] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:11:26] {SEVERE} MAIN - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error removing old webhook
+	at org.telegram.telegrambots.util.WebhookUtils.clearWebhook(WebhookUtils.java:79)
+	at org.telegram.telegrambots.bots.TelegramLongPollingBot.clearWebhook(TelegramLongPollingBot.java:25)
+	at org.telegram.telegrambots.meta.TelegramBotsApi.registerBot(TelegramBotsApi.java:120)
+	at org.telegram.Main.main(Main.java:38)
+[4_1_2020_14:12:17] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:12:17] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:12:17] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:12:17] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:12:17] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:12:17] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:12:17] {INFO} Start - Start method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:12:17] {INFO} Start - End method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:12:18] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:12:27] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:12:27] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:12:27] {INFO} Cansel - Start method getSendMessage in Cansel. ID User = 146227982
+[4_1_2020_14:12:27] {INFO} Cansel - End method getSendMessage in Cansel. ID User = 146227982
+[4_1_2020_14:12:28] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:12:28] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:12:28] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:12:28] {INFO} MainMenu - Start method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:12:28] {INFO} MainMenu - End method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:12:29] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:13:53] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:13:53] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:13:53] {INFO} Start - Start method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:13:53] {INFO} Start - End method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:13:53] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:13:56] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:13:56] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 212345678
+[4_1_2020_14:13:56] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:13:56] {INFO} Insert_Your_Acc - Start method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:13:56] {INFO} Insert_Your_Acc - Start method verifyAccount. ID User = 146227982
+[4_1_2020_14:13:56] {INFO} Insert_Your_Acc - End method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:13:56] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:13:59] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:13:59] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Тризонний
+[4_1_2020_14:13:59] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:13:59] {INFO} Insert_Your_Type - Start method getSendMessage in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:13:59] {INFO} Insert_Your_Type - End method setTextEqualTypeZone in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:13:59] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:14:5] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:14:5] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 11 222 888
+[4_1_2020_14:14:5] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:14:5] {INFO} Insert_Your_Indicator - Start method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:14:5] {INFO} Insert_Your_Indicator - Start method verifyIndicate in Insert_Your_Indicator. Your Zone = /Тризонний, text = 11 222 888
+[4_1_2020_14:14:5] {INFO} Insert_Your_Indicator - End method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:14:5] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:14:6] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:14:6] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Відправити
+[4_1_2020_14:14:6] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:14:6] {INFO} Send_Your_Info - Start method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:14:6] {INFO} PoolingHttpClient_2 - Start method getCloseableHttpClient in PoolingHttpClient_2
+[4_1_2020_14:14:6] {INFO} PoolingHttpClient_2 - Start method getStrategy in PoolingHttpClient_2
+[4_1_2020_14:14:6] {FINE} PoolingHttpClient_2 - successful method getCloseableHttpClient in PoolingHttpClient_2
+[4_1_2020_14:14:6] {SEVERE} BOTSESSION - java.lang.NullPointerException
+	at java.net.URI$Parser.parse(URI.java:3042)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	at org.apache.http.client.methods.HttpPost.<init>(HttpPost.java:73)
+	at org.telegram.http_config.PostHttpClient.getHttpPost(PostHttpClient.java:20)
+	at org.telegram.http_config.PostHttpClient.getInstance(PostHttpClient.java:13)
+	at org.telegram.ImplService.startSubMenu.Send_Your_Info.sendMassegeToBase(Send_Your_Info.java:50)
+	at org.telegram.ImplService.startSubMenu.Send_Your_Info.getSendMessage(Send_Your_Info.java:42)
+	at org.telegram.updateshandlers.BotWithSessionHandlers.send_massege(BotWithSessionHandlers.java:140)
+	at org.telegram.updateshandlers.BotWithSessionHandlers.startSubMenu(BotWithSessionHandlers.java:117)
+	at org.telegram.updateshandlers.BotWithSessionHandlers.mainMenu(BotWithSessionHandlers.java:85)
+	at org.telegram.updateshandlers.BotWithSessionHandlers.onUpdateReceived(BotWithSessionHandlers.java:26)
+	at org.telegram.session.TelegramLongPollingSessionBot.onUpdateReceived(TelegramLongPollingSessionBot.java:64)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[4_1_2020_14:18:11] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:18:11] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:18:11] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:18:11] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:18:26] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:18:46] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:18:46] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:18:46] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:19:25] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:19:25] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:19:25] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:19:25] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:19:33] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:33] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:19:33] {INFO} Cansel - Start method getSendMessage in Cansel. ID User = 146227982
+[4_1_2020_14:19:33] {INFO} Cansel - End method getSendMessage in Cansel. ID User = 146227982
+[4_1_2020_14:19:33] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:34] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:34] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:19:34] {INFO} MainMenu - Start method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:19:34] {INFO} MainMenu - End method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:19:34] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:35] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:35] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:19:35] {INFO} Start - Start method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:19:35] {INFO} Start - End method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:19:35] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:38] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:38] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 212345678
+[4_1_2020_14:19:38] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:19:38] {INFO} Insert_Your_Acc - Start method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:19:38] {INFO} Insert_Your_Acc - Start method verifyAccount. ID User = 146227982
+[4_1_2020_14:19:38] {INFO} Insert_Your_Acc - End method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:19:38] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:40] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:40] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Тризонний
+[4_1_2020_14:19:40] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:19:40] {INFO} Insert_Your_Type - Start method getSendMessage in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:19:40] {INFO} Insert_Your_Type - End method setTextEqualTypeZone in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:19:40] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:45] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:45] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 222 555 888
+[4_1_2020_14:19:45] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:19:45] {INFO} Insert_Your_Indicator - Start method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:19:45] {INFO} Insert_Your_Indicator - Start method verifyIndicate in Insert_Your_Indicator. Your Zone = /Тризонний, text = 222 555 888
+[4_1_2020_14:19:45] {INFO} Insert_Your_Indicator - End method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:19:45] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:47] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:47] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Відправити
+[4_1_2020_14:19:47] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:19:47] {INFO} Send_Your_Info - Start method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:19:47] {INFO} PoolingHttpClient - Start method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:19:47] {INFO} PoolingHttpClient - Start method getStrategy in PoolingHttpClient
+[4_1_2020_14:19:47] {FINE} PoolingHttpClient - successful method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:19:47] {INFO} PostHttpClient - Grated mAppGetUrl =  https://httpbin.org/post
+[4_1_2020_14:19:47] {INFO} Send_Your_Info - Start method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:19:47] {INFO} Send_Your_Info - End method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:19:47] {INFO} MultiHttpClientConnThread - Srart method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:19:47] {INFO} Send_Your_Info - End method sendMassegeToBase in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:19:47] {INFO} Send_Your_Info - End method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:19:48] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:19:48] {INFO} MultiHttpClientConnThread - {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "userId": "212345678", 
+    "yourIndicate": "222 555 888", 
+    "yourZone": "/?????????"
+  }, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "81", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.5.10 (Java/1.8.0_144)"
+  }, 
+  "json": null, 
+  "origin": "176.115.96.46, 176.115.96.46", 
+  "url": "https://httpbin.org/post"
+}
+
+[4_1_2020_14:19:48] {INFO} MultiHttpClientConnThread - End method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:28:10] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:28:18] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:28:18] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:28:18] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:28:19] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:28:19] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:28:19] {INFO} MainMenu - Start method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:28:19] {INFO} MainMenu - End method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:28:19] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:28:40] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:28:40] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:28:40] {INFO} Start - Start method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:28:40] {INFO} Start - End method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:28:41] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:28:44] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:28:44] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 212345678
+[4_1_2020_14:28:44] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:28:44] {INFO} Insert_Your_Acc - Start method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:28:44] {INFO} Insert_Your_Acc - Start method verifyAccount. ID User = 146227982
+[4_1_2020_14:28:44] {INFO} Insert_Your_Acc - End method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:28:45] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:29:6] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:29:6] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Тризонний
+[4_1_2020_14:29:6] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:29:6] {INFO} Insert_Your_Type - Start method getSendMessage in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:29:6] {INFO} Insert_Your_Type - End method setTextEqualTypeZone in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:29:6] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:29:12] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:29:12] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 222 555 888
+[4_1_2020_14:29:12] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:29:12] {INFO} Insert_Your_Indicator - Start method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:29:12] {INFO} Insert_Your_Indicator - Start method verifyIndicate in Insert_Your_Indicator. Your Zone = /Тризонний, text = 222 555 888
+[4_1_2020_14:29:12] {INFO} Insert_Your_Indicator - End method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:29:12] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:29:13] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:29:13] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Відправити
+[4_1_2020_14:29:13] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:29:13] {INFO} Send_Your_Info - Start method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:29:13] {INFO} PoolingHttpClient - Start method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:29:13] {INFO} PoolingHttpClient - Start method getStrategy in PoolingHttpClient
+[4_1_2020_14:29:13] {FINE} PoolingHttpClient - successful method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:29:13] {INFO} PostHttpClient - Grated mAppGetUrl =  https://httpbin.org/post
+[4_1_2020_14:29:13] {INFO} Send_Your_Info - Start method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:29:13] {INFO} Send_Your_Info - End method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:29:13] {INFO} Send_Your_Info - End method sendMassegeToBase in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:29:13] {INFO} MultiHttpClientConnThread - Srart method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:29:13] {INFO} Send_Your_Info - End method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:29:13] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:29:14] {INFO} MultiHttpClientConnThread - {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "userId": "212345678", 
+    "yourIndicate": "222 555 888", 
+    "yourZone": "/?????????"
+  }, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "81", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.5.10 (Java/1.8.0_144)"
+  }, 
+  "json": null, 
+  "origin": "176.115.96.46, 176.115.96.46", 
+  "url": "https://httpbin.org/post"
+}
+
+[4_1_2020_14:29:14] {INFO} MultiHttpClientConnThread - End method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:31:33] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:31:33] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:31:33] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:31:33] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:31:52] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:31:52] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:31:52] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:31:52] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:31:57] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:31:57] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:31:57] {INFO} MainMenu - Start method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:31:57] {INFO} MainMenu - End method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:31:57] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:31:58] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:31:58] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:31:58] {INFO} Start - Start method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:31:58] {INFO} Start - End method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:31:58] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:32:2] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:32:2] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 212345678
+[4_1_2020_14:32:2] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:32:2] {INFO} Insert_Your_Acc - Start method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:32:2] {INFO} Insert_Your_Acc - Start method verifyAccount. ID User = 146227982
+[4_1_2020_14:32:2] {INFO} Insert_Your_Acc - End method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:32:2] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:32:56] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:32:56] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:32:56] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:32:56] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:32:58] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:32:58] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:32:58] {INFO} Cansel - Start method getSendMessage in Cansel. ID User = 146227982
+[4_1_2020_14:32:58] {INFO} Cansel - End method getSendMessage in Cansel. ID User = 146227982
+[4_1_2020_14:32:58] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:0] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:0] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:33:0] {INFO} MainMenu - Start method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:33:0] {INFO} MainMenu - End method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:33:0] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 212345678
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Not successful performance method startSubMenu in BotWithSessionHandlers: return false. ID User = 146227982
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Start method chatSubMenu, with message = 212345678
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Not successful performance method chatSubMenu in BotWithSessionHandlers: return false. ID User = 146227982
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Not successful performance method mainMenu in BotWithSessionHandlers: return false. ID User = 146227982
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 212345678
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Not successful performance method startSubMenu in BotWithSessionHandlers: return false. ID User = 146227982
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Start method chatSubMenu, with message = 212345678
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Not successful performance method chatSubMenu in BotWithSessionHandlers: return false. ID User = 146227982
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:33:5] {INFO} Cansel - Start method getSendMessage in Cansel. ID User = 146227982
+[4_1_2020_14:33:5] {INFO} Cansel - End method getSendMessage in Cansel. ID User = 146227982
+[4_1_2020_14:33:5] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:8] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:8] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:33:8] {INFO} Start - Start method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:33:8] {INFO} Start - End method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:33:8] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:12] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:12] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 212345678
+[4_1_2020_14:33:12] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:33:12] {INFO} Insert_Your_Acc - Start method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:33:12] {INFO} Insert_Your_Acc - Start method verifyAccount. ID User = 146227982
+[4_1_2020_14:33:12] {INFO} Insert_Your_Acc - End method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:33:12] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:13] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:13] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Тризонний
+[4_1_2020_14:33:13] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:33:13] {INFO} Insert_Your_Type - Start method getSendMessage in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:33:13] {INFO} Insert_Your_Type - End method setTextEqualTypeZone in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:33:13] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:17] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:17] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 222 555 888
+[4_1_2020_14:33:17] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:33:17] {INFO} Insert_Your_Indicator - Start method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:33:17] {INFO} Insert_Your_Indicator - Start method verifyIndicate in Insert_Your_Indicator. Your Zone = /Тризонний, text = 222 555 888
+[4_1_2020_14:33:17] {INFO} Insert_Your_Indicator - End method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:33:17] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:21] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:33:21] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Відправити
+[4_1_2020_14:33:21] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:33:21] {INFO} Send_Your_Info - Start method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:33:21] {INFO} PoolingHttpClient - Start method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:33:21] {INFO} PoolingHttpClient - Start method getStrategy in PoolingHttpClient
+[4_1_2020_14:33:21] {FINE} PoolingHttpClient - successful method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:33:21] {INFO} PostHttpClient - Grated mAppGetUrl =  http://localhost:8080/servlets_war_exploded/servlets
+[4_1_2020_14:33:21] {INFO} Send_Your_Info - Start method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:33:21] {INFO} Send_Your_Info - End method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:33:21] {INFO} Send_Your_Info - End method sendMassegeToBase in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:33:21] {INFO} MultiHttpClientConnThread - Srart method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:33:21] {INFO} Send_Your_Info - End method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:33:21] {INFO} MultiHttpClientConnThread - 
+[4_1_2020_14:33:21] {INFO} MultiHttpClientConnThread - End method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:33:21] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:22] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:35:22] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:35:22] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:35:22] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:35:23] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:23] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:35:23] {INFO} MainMenu - Start method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:35:23] {INFO} MainMenu - End method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:35:24] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:24] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:24] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:35:24] {INFO} Start - Start method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:35:24] {INFO} Start - End method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:35:25] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:28] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:28] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 212345678
+[4_1_2020_14:35:28] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:35:28] {INFO} Insert_Your_Acc - Start method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:35:28] {INFO} Insert_Your_Acc - Start method verifyAccount. ID User = 146227982
+[4_1_2020_14:35:28] {INFO} Insert_Your_Acc - End method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:35:28] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:31] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:31] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Тризонний
+[4_1_2020_14:35:31] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:35:31] {INFO} Insert_Your_Type - Start method getSendMessage in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:35:31] {INFO} Insert_Your_Type - End method setTextEqualTypeZone in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:35:31] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:35] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:35] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 222 555 888
+[4_1_2020_14:35:35] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:35:35] {INFO} Insert_Your_Indicator - Start method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:35:35] {INFO} Insert_Your_Indicator - Start method verifyIndicate in Insert_Your_Indicator. Your Zone = /Тризонний, text = 222 555 888
+[4_1_2020_14:35:35] {INFO} Insert_Your_Indicator - End method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:35:35] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:36] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:35:36] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Відправити
+[4_1_2020_14:35:36] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:35:36] {INFO} Send_Your_Info - Start method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:35:36] {INFO} PoolingHttpClient - Start method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:35:36] {INFO} PoolingHttpClient - Start method getStrategy in PoolingHttpClient
+[4_1_2020_14:35:36] {FINE} PoolingHttpClient - successful method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:35:36] {INFO} PostHttpClient - Grated mAppGetUrl =  http://localhost:8080/servlets_war_exploded/servlets
+[4_1_2020_14:35:36] {INFO} Send_Your_Info - Start method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:35:36] {INFO} Send_Your_Info - End method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:35:36] {INFO} Send_Your_Info - End method sendMassegeToBase in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:35:36] {INFO} MultiHttpClientConnThread - Srart method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:35:36] {INFO} Send_Your_Info - End method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:35:36] {INFO} MultiHttpClientConnThread - 
+[4_1_2020_14:35:36] {INFO} MultiHttpClientConnThread - End method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:35:36] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:19] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:39:19] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_14:39:19] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_14:39:19] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_14:39:21] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:21] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:39:21] {INFO} MainMenu - Start method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:39:21] {INFO} MainMenu - End method getSendMessage in MainMenu. ID User = 146227982
+[4_1_2020_14:39:21] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:22] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:22] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:39:22] {INFO} Start - Start method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:39:22] {INFO} Start - End method getSendMessage in Start. ID User = 146227982
+[4_1_2020_14:39:22] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:26] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:26] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 212345678
+[4_1_2020_14:39:26] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:39:26] {INFO} Insert_Your_Acc - Start method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:39:26] {INFO} Insert_Your_Acc - Start method verifyAccount. ID User = 146227982
+[4_1_2020_14:39:26] {INFO} Insert_Your_Acc - End method getSendMessage in Insert_Your_Acc. ID User = 146227982
+[4_1_2020_14:39:26] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:27] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:27] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Тризонний
+[4_1_2020_14:39:27] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:39:27] {INFO} Insert_Your_Type - Start method getSendMessage in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:39:27] {INFO} Insert_Your_Type - End method setTextEqualTypeZone in Insert_Your_Type. ID User = 146227982
+[4_1_2020_14:39:27] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:32] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:32] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = 222 555 777
+[4_1_2020_14:39:32] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:39:32] {INFO} Insert_Your_Indicator - Start method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:39:32] {INFO} Insert_Your_Indicator - Start method verifyIndicate in Insert_Your_Indicator. Your Zone = /Тризонний, text = 222 555 777
+[4_1_2020_14:39:32] {INFO} Insert_Your_Indicator - End method getSendMessage in Insert_Your_Indicator. ID User = 146227982
+[4_1_2020_14:39:32] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:44] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_14:39:44] {INFO} BotWithSessionHandlers - Start method startSubMenu, with message = /Відправити
+[4_1_2020_14:39:44] {INFO} BotWithSessionHandlers - Start method send_massege in class BotWithSessionHandlers
+[4_1_2020_14:39:44] {INFO} Send_Your_Info - Start method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:39:44] {INFO} PoolingHttpClient - Start method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:39:44] {INFO} PoolingHttpClient - Start method getStrategy in PoolingHttpClient
+[4_1_2020_14:39:44] {FINE} PoolingHttpClient - successful method getCloseableHttpClient in PoolingHttpClient
+[4_1_2020_14:39:44] {INFO} PostHttpClient - Grated mAppGetUrl =  http://localhost:8080/servlets_war_exploded/servlets
+[4_1_2020_14:39:44] {INFO} Send_Your_Info - Start method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:39:44] {INFO} Send_Your_Info - End method add_request_parameter in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:39:44] {INFO} Send_Your_Info - End method sendMassegeToBase in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:39:44] {INFO} MultiHttpClientConnThread - Srart method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:39:44] {INFO} Send_Your_Info - End method getSendMessage in Send_Your_Info. ID User = 146227982
+[4_1_2020_14:39:44] {INFO} MultiHttpClientConnThread - 
+[4_1_2020_14:39:44] {INFO} MultiHttpClientConnThread - End method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
+[4_1_2020_14:39:44] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982

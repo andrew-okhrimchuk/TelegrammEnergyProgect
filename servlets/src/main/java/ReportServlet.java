@@ -42,6 +42,10 @@ public class ReportServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String jsonData = req.getParameter("userAcc");
+        String jsonData1 = req.getParameter("yourZone");
+        String jsonData2 = req.getParameter("yourIndicate");
+        System.out.println("userAcc = " + jsonData + ", yourZone = " + jsonData1+ ", yourIndicate = " + jsonData2);
     }
 
     public static Date asDate(LocalDate localDate) {
