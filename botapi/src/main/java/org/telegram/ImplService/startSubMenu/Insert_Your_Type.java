@@ -29,7 +29,7 @@ public class Insert_Your_Type extends BaseEntityOfCommands implements Menu {
         listCommand.add(CANSEL);
         listCommand.add(HELP);
 
-        if(text.equals(ZONE_1) || text.equals(ZONE_2) || text.equals(ZONE_3)) {
+        if(isZoneChek()) {
             optionalSession.get().setAttribute("SubMenuAttribute", INSERT_YOUR_INDICATOR);
             optionalSession.get().setAttribute("YOUR_ZONE", text);
             yourZoneAttribute = text;
@@ -66,6 +66,10 @@ public class Insert_Your_Type extends BaseEntityOfCommands implements Menu {
         }
         BotLogger.info(LOGTAG, "End method setTextEqualTypeZone in " +  LOGTAG + ". ID User = " + id );
 
+    }
+
+    private boolean isZoneChek(){
+        return text.equals(ZONE_1) || text.equals(ZONE_2) || text.equals(ZONE_3);
     }
 
 }

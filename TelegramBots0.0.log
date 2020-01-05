@@ -5017,3 +5017,8 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [4_1_2020_14:39:44] {INFO} MultiHttpClientConnThread - 
 [4_1_2020_14:39:44] {INFO} MultiHttpClientConnThread - End method run in MultiHttpClientConnThread. currentThread().getName() = Thread-4
 [4_1_2020_14:39:44] {INFO} BotWithSessionHandlers - End method send_massege in class BotWithSessionHandlers. ID User = 146227982
+[4_1_2020_18:27:5] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_18:27:5] {INFO} AppRead - End method getUrl in AppRead
+[4_1_2020_18:27:5] {INFO} AppRead - Start method getUrl in AppRead
+[4_1_2020_18:27:5] {INFO} AppRead - End method getToken in AppRead
+[4_1_2020_18:27:6] {INFO} BotWithSessionHandlers - Start method mainMenu in BotWithSessionHandlers. ID User = 146227982

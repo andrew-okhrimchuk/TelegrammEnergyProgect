@@ -21,4 +21,9 @@ public class DateOfGivingOfIndicators extends BaseEntity {
         this.id_telegram = id_telegram;
         this.date = date;
     }
+    public DateOfGivingOfIndicators(Integer id, Integer id_telegram) {
+        super(id);
+        this.id_telegram = id_telegram;
+        this.date = LocalDate.now();
+    }
 }

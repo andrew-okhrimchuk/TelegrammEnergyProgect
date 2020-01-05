@@ -1,3 +1,4 @@
+import org.telegram.Main;
 import dao.*;
 import org.slf4j.Logger;
 import org.thymeleaf.context.WebContext;
@@ -24,6 +25,9 @@ import static web.ThymeleafListener.engine;
 
 @WebServlet(urlPatterns = "/servlets")
 public class ReportServlet extends HttpServlet {
+
+    {Main.main(null);}
+
     private static final Logger log = getLogger(DBIProvider.class);
 
     DateOfOperatorRequestDao daoOperatorD = DBIProvider.getDao(DateOfOperatorRequestDao.class);

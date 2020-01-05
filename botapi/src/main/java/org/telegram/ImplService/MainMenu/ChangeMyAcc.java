@@ -29,7 +29,7 @@ public class ChangeMyAcc extends BaseEntityOfCommands implements Menu {
         sendMessage = start.getSendMessage();
         BotLogger.info(LOGTAG, "Start method ChangeMyAcc. ID User = " + id );
         optionalSession.get().setAttribute("SubMenuAttribute", INSERT_YOUR_ACCOUNT);
-        optionalSession.get().setAttribute("YOUR_ACCOUNT", null);
+       // optionalSession.get().setAttribute("YOUR_ACCOUNT", null);
         optionalSession.get().setAttribute("YOUR_ZONE", null);
         optionalSession.get().setAttribute("YOUR_Indicate", null);
         setButtons(listCommand);

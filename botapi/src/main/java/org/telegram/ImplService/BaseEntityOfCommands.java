@@ -1,5 +1,6 @@
 package org.telegram.ImplService;
 
+import dao.UserDao;
 import lombok.*;
 import org.apache.shiro.session.Session;
 import org.telegram.data.SubMenuAttribute;
@@ -8,6 +9,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
+import provider.DBIProvider;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +21,7 @@ import java.util.Optional;
 @Setter
 @NoArgsConstructor
 public class BaseEntityOfCommands {
+    private UserDao daoOperatorD = DBIProvider.getDao(UserDao.class);
     protected List<String> listCommand;
     protected SubMenuAttribute subMenuAttribute;
     protected SendMessage sendMessage;

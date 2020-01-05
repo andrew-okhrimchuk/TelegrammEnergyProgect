@@ -1,13 +1,17 @@
 package org.telegram.ImplService.startSubMenu;
 
+import dao.DateOfOperatorRequestDao;
+import dao.UserDao;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import model.User;
 import org.apache.shiro.session.Session;
 import org.telegram.ImplService.BaseEntityOfCommands;
 import org.telegram.service.Menu;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.logging.BotLogger;
+import provider.DBIProvider;
 
 import java.util.Optional;
 import java.util.regex.Pattern;
@@ -22,10 +26,13 @@ import static org.telegram.data.SubMenuAttribute.*;
 @NoArgsConstructor
 public class Insert_Your_Acc extends BaseEntityOfCommands implements Menu {
     public static final String LOGTAG = "Insert_Your_Acc";
+    private UserDao daoOperatorD = DBIProvider.getDao(UserDao.class);
 
     public Insert_Your_Acc(Update update, Optional<Session> optionalSessio){
         super(update, optionalSessio);
     }
+
+
 
     public SendMessage getSendMessage() {
         BotLogger.info(LOGTAG, "Start method getSendMessage in " +  LOGTAG + ". ID User = " + id );
@@ -44,9 +51,9 @@ public class Insert_Your_Acc extends BaseEntityOfCommands implements Menu {
             BotLogger.info(LOGTAG, "End method getSendMessage in " +  LOGTAG + ". ID User = " + id );
             return sendMessage;
         }
-
-        optionalSession.get().setAttribute("SubMenuAttribute", INSERT_YOUR_TYPE);
         optionalSession.get().setAttribute("YOUR_ACCOUNT", text);
+       // addAccToBase();
+        optionalSession.get().setAttribute("SubMenuAttribute", INSERT_YOUR_TYPE);
         sendMessage.setText(START_TEXT_LEVEL_1_1 + text + START_TEXT_LEVEL_1_2);
         listCommand.add(CHANGE_MY_ACC);
         listCommand.add(ZONE_1);
@@ -61,4 +68,6 @@ public class Insert_Your_Acc extends BaseEntityOfCommands implements Menu {
         BotLogger.info(LOGTAG, "Start method verifyAccount. ID User = " + id );
         return Pattern.matches("[2,4]{1}\\d{8}",text);
     }
+
+
 }
