@@ -23,7 +23,7 @@ import static org.slf4j.LoggerFactory.getLogger;
 import static web.ThymeleafListener.engine;
 
 
-@WebServlet(urlPatterns = "/")
+@WebServlet(urlPatterns = "/servlets")
 public class ReportServlet extends HttpServlet {
 
     {Main.main(null);}
