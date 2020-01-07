@@ -15,6 +15,7 @@ import javax.sql.DataSource;
 
 import java.io.File;
 import java.io.FileReader;
+import java.net.URI;
 import java.util.Properties;
 
 import static org.slf4j.LoggerFactory.getLogger;
@@ -39,6 +40,12 @@ public class DBIProvider {
             else {
                 try {log.info("Init jDBI with  JNDI");
 
+                    URI dbUri = new URI(System.getenv("DATABASE_URL"));
+
+                    String username = dbUri.getUserInfo().split(":")[0];
+                    String password = dbUri.getUserInfo().split(":")[1];
+                    String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + ':' + dbUri.getPort() + dbUri.getPath() + "?sslmode=require";
+
                     Properties props = new Properties();
                     props.setProperty("ssl","true");
                     props.setProperty("sslmode","verify-ca");
@@ -47,10 +54,13 @@ public class DBIProvider {
                     ComboPooledDataSource cpds = new ComboPooledDataSource();
                     cpds.setProperties( props );
                     cpds.setDriverClass( "org.postgresql.Driver" ); //loads the jdbc driver
-                    cpds.setJdbcUrl( "jdbc:postgresql://ec2-54-246-121-32.eu-west-1.compute.amazonaws.com:5432/de6vdd91oitr14" );
+                     cpds.setJdbcUrl(dbUrl );
+                    cpds.setUser(username);
+                    cpds.setPassword(password);
+                   /* cpds.setJdbcUrl( "jdbc:postgresql://ec2-54-246-121-32.eu-west-1.compute.amazonaws.com:5432/de6vdd91oitr14" );
                     cpds.setUser("poyegifpaqwrhl");
                     cpds.setPassword("54846d99b101407d1e0f9a34782e8edce96f288cfd0fb980fbb938db943b1364");
-
+*/
 
 // the settings below are optional -- c3p0 can work with defaults
                     cpds.setMinPoolSize(5);
