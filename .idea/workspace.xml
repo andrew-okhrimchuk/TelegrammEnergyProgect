@@ -2,156 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6640ee8-7439-40c7-a609-14eaee33517b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/botapi/target/botapi-2.1-jar-with-dependencies.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/botapi-2.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/botapi-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/BotConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/BuildVars.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/Commands.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/BaseEntityOfCommands.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/Cansel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/ChangeData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/ChangeMyAcc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/ChangeZone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/Chat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/ErrorMassege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/Help.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/MainMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/Start.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/chatSubMenu/ChatSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/startSubMenu/Insert_Your_Acc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/startSubMenu/Insert_Your_Indicator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/startSubMenu/Insert_Your_Type.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/startSubMenu/Send_Your_Info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/data/BotMessageText.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/data/MenuButtons.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/data/SubMenuAttribute.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/AppRead.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/MultiHttpClientConnThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/PoolingHttpClient$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/PoolingHttpClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/PostHttpClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/service/Menu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/session/ChatIdConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/session/DefaultChatIdConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/session/DefaultChatSessionContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/session/TelegramLongPollingSessionBot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/classes/org/telegram/updateshandlers/BotWithSessionHandlers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/surefire-reports/TEST-org.telegram.telegrambots.test.TelegramLongPollingBotTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/surefire-reports/TEST-org.telegram.telegrambots.test.TestDefaultBotSession.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/surefire-reports/org.telegram.telegrambots.test.TelegramLongPollingBotTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/surefire-reports/org.telegram.telegrambots.test.TestDefaultBotSession.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/log4j2-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/Fakes/FakeLongPollingBot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/Fakes/FakeWebhook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TelegramLongPollingBotTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TelegramLongPollingBotTest$TestBot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TelegramLongPollingBotTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TestDefaultBotSession.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/DTO/Report.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/dao/AbstractDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/dao/DateOfGivingOfIndicatorsDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/dao/DateOfOperatorRequestDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/model/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/model/DateOfGivingOfIndicators.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/model/DateOfOperatorRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/DBIProvider$DBIHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/DBIProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/IntArrayArgument$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/IntArrayArgument.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/classes/provider/LocalDateMapperFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/TEST-persist.dao.GivingDaoTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/TEST-persist.dao.OperatorDaoTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/TEST-persist.dao.UserDaoTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/persist.dao.GivingDaoTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/persist.dao.OperatorDaoTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/surefire-reports/persist.dao.UserDaoTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/GivingTestData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/OperatorTestData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/GivingDaoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/OperatorDaoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/common-web/common-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/common-web/target/classes/web/ThymeleafListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/common-web/target/classes/web/ThymeleafUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/common-web/target/common-web-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/common-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/servlets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/classes/UploadServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/classes/UploadServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/error_prone_annotations-2.0.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/guava-23.3-jre.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/j2html-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/j2objc-annotations-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/jdbi-2.78.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/jdbi-folder-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/jsr305-1.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/persist-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/postgresql-42.1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/postgresql-9.0-801.jdbc4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/lib/streamex-0.6.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/templates/exception.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/templates/result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/servlets/WEB-INF/templates/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/test-classes/city.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/servlets/target/test-classes/payload.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/botapi/botapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/botapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/botapi/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_eo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_es.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_it.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_nl.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapi/src/main/resources/strings_pt.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/persist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/persist/persist.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persist/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/DBIProvider$DBIHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/DBIProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/dao/AbstractDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/model/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/classes/persist/model/UserFlag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/persist-2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/persist-2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/test-classes/persist/DBITestProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/DBITestProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/test-classes/persist/UserTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/UserTestData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/AbstractDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/AbstractDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/persist/target/test-classes/persist/dao/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/MainXml.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/xml/util/JaxbParserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/xml/util/StaxStreamProcessorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/xml/util/XPathProcessorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/servlets/src/test/java/ru/javaops/masterjava/xml/util/XsltProcessorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/BotConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/BuildVars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/BaseEntityOfCommands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/Cansel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/ChangeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/ChangeMyAcc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/ChangeZone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/Chat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/ErrorMassege.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/MainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/MainMenu/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/chatSubMenu/ChatSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/startSubMenu/Insert_Your_Acc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/startSubMenu/Insert_Your_Indicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/startSubMenu/Insert_Your_Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/ImplService/startSubMenu/Send_Your_Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/data/BotMessageText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/data/MenuButtons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/data/SubMenuAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/AppRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/MultiHttpClientConnThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/PoolingHttpClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/PoolingHttpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/http_config/PostHttpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/service/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/session/ChatIdConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/session/DefaultChatIdConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/session/DefaultChatSessionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/session/TelegramLongPollingSessionBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/classes/org/telegram/updateshandlers/BotWithSessionHandlers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/test-classes/log4j2-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/test-classes/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/Fakes/FakeLongPollingBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/Fakes/FakeWebhook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TelegramLongPollingBotTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TelegramLongPollingBotTest$TestBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TelegramLongPollingBotTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/botapi/target/test-classes/org/telegram/telegrambots/test/TestDefaultBotSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-web/parent-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlets/servlets.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/webapp.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +175,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../masterjava" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -280,11 +183,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Stajirovka\TelegrammEnergyProgect\web\common-web\src\main\java" />
-      <recent name="D:\Stajirovka\TelegrammEnergyProgect\web\upload\src\main\java" />
-      <recent name="D:\Stajirovka\TelegrammEnergyProgect\persist\src\test\java" />
-      <recent name="D:\Stajirovka\TelegrammEnergyProgect\persist\src\main\java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Stajirovka\TelegrammEnergyProgect" />
+      <recent name="D:\Stajirovka\TelegrammEnergyProgect\persist" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="persist.dao" />
@@ -293,9 +194,11 @@
       <recent name="provider" />
       <recent name="model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Stajirovka\TelegrammEnergyProgect" />
-      <recent name="D:\Stajirovka\TelegrammEnergyProgect\persist" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Stajirovka\TelegrammEnergyProgect\web\common-web\src\main\java" />
+      <recent name="D:\Stajirovka\TelegrammEnergyProgect\web\upload\src\main\java" />
+      <recent name="D:\Stajirovka\TelegrammEnergyProgect\persist\src\test\java" />
+      <recent name="D:\Stajirovka\TelegrammEnergyProgect\persist\src\main\java" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in botapimain">
@@ -399,6 +302,8 @@
       <workItem from="1577591360012" duration="29827000" />
       <workItem from="1577681028335" duration="27535000" />
       <workItem from="1577768923195" duration="4961000" />
+      <workItem from="1578379767331" duration="40000" />
+      <workItem from="1578379899806" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="Убрал захаркодженный ключ-телеграмм, и сделал его считку с config.properties">
       <created>1577545181552</created>
@@ -483,10 +388,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="837" y="227" width="594" height="585" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1577718523235" />
-    <state x="596" y="116" key="CommitChangelistDialog2" timestamp="1577774543710">
+    <state x="596" y="116" key="CommitChangelistDialog2" timestamp="1578382679434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="596" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577774543710" />
+    <state x="596" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578382679434" />
     <state x="277" y="85" key="DiffContextDialog" timestamp="1577708559514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -495,26 +400,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="224" key="ExecutionTargetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577715348562" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1577770960183">
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1578382384329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577770960183" />
-    <state width="1876" height="351" key="GridCell.Tab.0.bottom" timestamp="1577774532953">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578382384329" />
+    <state width="1876" height="392" key="GridCell.Tab.0.bottom" timestamp="1578382682057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577774532953" />
-    <state width="1876" height="351" key="GridCell.Tab.0.center" timestamp="1577774532953">
+    <state width="1876" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578382682057" />
+    <state width="1876" height="392" key="GridCell.Tab.0.center" timestamp="1578382682057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577774532953" />
-    <state width="1876" height="351" key="GridCell.Tab.0.left" timestamp="1577774532953">
+    <state width="1876" height="392" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578382682057" />
+    <state width="1876" height="392" key="GridCell.Tab.0.left" timestamp="1578382682056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577774532953" />
-    <state width="1876" height="351" key="GridCell.Tab.0.right" timestamp="1577774532953">
+    <state width="1876" height="392" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578382682056" />
+    <state width="1876" height="392" key="GridCell.Tab.0.right" timestamp="1578382682057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577774532953" />
+    <state width="1876" height="392" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578382682057" />
     <state width="1876" height="333" key="GridCell.Tab.1.bottom" timestamp="1577736655608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
