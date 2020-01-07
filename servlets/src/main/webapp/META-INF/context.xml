@@ -42,8 +42,19 @@
               testOnBorrow="true"
               logAbandoned="true"
               driverClassName="org.postgresql.Driver"
+              username="poyegifpaqwrhl"
+              port="5432"
+              password="54846d99b101407d1e0f9a34782e8edce96f288cfd0fb980fbb938db943b1364"
+              url="jdbc:postgresql://ec2-54-246-121-32.eu-west-1.compute.amazonaws.com/de6vdd91oitr14"/>
+   <!-- <Resource name="jdbc/postgres"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxWaitMillis="100000"
+              testOnBorrow="true"
+              logAbandoned="true"
+              driverClassName="org.postgresql.Driver"
               username="user"
               password="password"
-              url="jdbc:postgresql://localhost:5432/postgres"/>
+              url="jdbc:postgresql://localhost:5432/postgres"/>-->
 
 </Context>
