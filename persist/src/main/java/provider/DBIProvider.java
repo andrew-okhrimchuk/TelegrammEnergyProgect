@@ -39,7 +39,13 @@ public class DBIProvider {
             else {
                 try {log.info("Init jDBI with  JNDI");
 
+                    Properties props = new Properties();
+                    props.setProperty("ssl","true");
+                    props.setProperty("sslmode","verify-ca");
+                    props.setProperty("sslfactory","org.postgresql.ssl.NonValidatingFactory");
+
                     ComboPooledDataSource cpds = new ComboPooledDataSource();
+                    cpds.setProperties( props );
                     cpds.setDriverClass( "org.postgresql.Driver" ); //loads the jdbc driver
                     cpds.setJdbcUrl( "jdbc:postgresql://ec2-54-246-121-32.eu-west-1.compute.amazonaws.com:5432/de6vdd91oitr14" );
                     cpds.setUser("poyegifpaqwrhl");
