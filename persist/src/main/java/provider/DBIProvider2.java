@@ -1,25 +1,19 @@
 package provider;
 
 import com.github.rkmk.mapper.CustomMapperFactory;
-import dao.DateOfGivingOfIndicatorsDao;
-import dao.DateOfOperatorRequestDao;
+import dao.AbstractDao;
 import org.skife.jdbi.v2.DBI;
 import org.skife.jdbi.v2.logging.SLF4JLog;
 import org.skife.jdbi.v2.tweak.ConnectionFactory;
 import org.slf4j.Logger;
-import dao.AbstractDao;
 
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
-import java.io.File;
-import java.io.FileReader;
-import java.util.Properties;
-
 import static org.slf4j.LoggerFactory.getLogger;
 
-public class DBIProvider {
-    private static final Logger log = getLogger(DBIProvider.class);
+public class DBIProvider2 {
+    private static final Logger log = getLogger(DBIProvider2.class);
 
     private volatile static ConnectionFactory connectionFactory = null;
 
@@ -58,7 +52,7 @@ public class DBIProvider {
     }
 
     public static void init(ConnectionFactory connectionFactory) {
-        DBIProvider.connectionFactory = connectionFactory;
+        DBIProvider2.connectionFactory = connectionFactory;
     }
 
     public static DBI getDBI() {
@@ -68,6 +62,7 @@ public class DBIProvider {
     public static <T extends AbstractDao> T getDao(Class<T> daoClass) {
         return DBIHolder.jDBI.onDemand(daoClass);
     }
+
 
 
 }
