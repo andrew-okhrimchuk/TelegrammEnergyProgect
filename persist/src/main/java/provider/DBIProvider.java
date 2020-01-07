@@ -44,11 +44,12 @@ public class DBIProvider {
 
                     String username = dbUri.getUserInfo().split(":")[0];
                     String password = dbUri.getUserInfo().split(":")[1];
-                    String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + ':' + dbUri.getPort() + dbUri.getPath() + "?sslmode=require";
+                    String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + ':' + dbUri.getPort() + dbUri.getPath() ;
 
                     Properties props = new Properties();
                     props.setProperty("ssl","true");
-                    props.setProperty("sslmode","verify-ca");
+                    //props.setProperty("sslmode","verify-ca");
+                    props.setProperty("sslmode", "disable");
                     props.setProperty("sslfactory","org.postgresql.ssl.NonValidatingFactory");
 
                     ComboPooledDataSource cpds = new ComboPooledDataSource();
