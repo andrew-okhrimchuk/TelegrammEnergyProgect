@@ -29,7 +29,15 @@
             <artifactId>postgresql</artifactId>
             <version>42.1.4</version>
         </dependency>
-<!--  http://manikandan-k.github.io/jdbi_folder/ -->
+
+        <!-- https://mvnrepository.com/artifact/c3p0/c3p0 -->
+        <dependency>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.1.2</version>
+        </dependency>
+
+        <!--  http://manikandan-k.github.io/jdbi_folder/ -->
         <dependency>
             <groupId>com.github.rkmk</groupId>
             <artifactId>jdbi-folder</artifactId>

@@ -1,6 +1,7 @@
 package provider;
 
 import com.github.rkmk.mapper.CustomMapperFactory;
+import com.mchange.v2.c3p0.ComboPooledDataSource;
 import dao.DateOfGivingOfIndicatorsDao;
 import dao.DateOfOperatorRequestDao;
 import org.skife.jdbi.v2.DBI;
@@ -38,8 +39,22 @@ public class DBIProvider {
             else {
                 try {log.info("Init jDBI with  JNDI");
 
-                    InitialContext ctx = new InitialContext();
-                    dbi = new DBI((DataSource) ctx.lookup("java:/comp/env/jdbc/postgres"));
+                    ComboPooledDataSource cpds = new ComboPooledDataSource();
+                    cpds.setDriverClass( "org.postgresql.Driver" ); //loads the jdbc driver
+                    cpds.setJdbcUrl( "jdbc:postgresql://ec2-54-246-121-32.eu-west-1.compute.amazonaws.com:5432/de6vdd91oitr14" );
+                    cpds.setUser("poyegifpaqwrhl");
+                    cpds.setPassword("54846d99b101407d1e0f9a34782e8edce96f288cfd0fb980fbb938db943b1364");
+
+
+// the settings below are optional -- c3p0 can work with defaults
+                    cpds.setMinPoolSize(5);
+                    cpds.setAcquireIncrement(5);
+                    cpds.setMaxPoolSize(20);
+                    cpds.setMaxIdleTime(10000);
+
+                    dbi = new DBI(cpds);
+                    /*InitialContext ctx = new InitialContext();
+                    dbi = new DBI((DataSource) ctx.lookup("java:/comp/env/jdbc/postgres"));*/
 
                 } catch (Exception ex) {
                     log.error("PostgreSQL initialization failed", ex);
